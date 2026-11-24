@@ -22,6 +22,10 @@ class MassAmbient(unittest.TestCase):
         data="".join(f"{i/1000} .01\n" for i in range(1,101)).encode()
         sha=hashlib.sha1(f"blob {len(data)}\0".encode()+data).hexdigest()
         rows,n=a.parse(data,sha,2,1);self.assertEqual(len(rows),100);self.assertAlmostEqual(n,1)
+    def test_b16_density(self):
+        data=''.join(f'{i*.0005:.4f} '+ ' '.join(['2']*11)+'\n' for i in range(1,1001)).encode()
+        sha=hashlib.sha1(f'blob {len(data)}\0'.encode()+data).hexdigest()
+        rows,n=a.parse(data,sha,12,7);self.assertAlmostEqual(n,1);self.assertEqual(len(rows),1000)
     def test_optics(self):
         f=lambda D,dt,dr:a.laser(1,D,dt,dr,1550e-9)
         self.assertAlmostEqual(f(1e11,.22,5)/f(2e11,.22,5),4)

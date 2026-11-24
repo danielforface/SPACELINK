@@ -32,6 +32,12 @@ def parse(data,sha,ncol,idx):
         except ValueError:continue
         rows.append((x[0],x[idx]))
     if len(rows)<100 or not all(math.isfinite(r) and math.isfinite(w) and 0<r<=1 and w>=0 for r,w in rows) or not all(a[0]<b[0] for a,b in zip(rows,rows[1:])):raise ValueError("invalid rows")
+    # B16 samples a radial density on a 0.0005 R_sun uniform grid.
+    # BS05 supplies per-zone weights. Validate grid before applying quadrature.
+    if ncol==12:
+        dx=.0005
+        if abs(rows[0][0]-dx)>1e-9 or abs(rows[-1][0]-.5)>1e-9 or any(abs(b[0]-a[0]-dx)>1e-9 for a,b in zip(rows,rows[1:])):raise ValueError('unexpected B16 radial grid')
+        rows=[(r,w*dx) for r,w in rows]
     norm=math.fsum(w for r,w in rows)
     if abs(norm-1)>.02:raise ValueError("unexpected normalization "+str(norm))
     return rows,norm
