@@ -1,0 +1,208 @@
+{
+  "code_revision": "aaf2ae5079828c71f2e8441b0761a4a9841462fb",
+  "ci_run": 45381502099,
+  "job": 138401403286,
+  "evidence": "DERIVED screening only",
+  "rows": [
+    {
+      "length_m": 1,
+      "radius_m": 1,
+      "f": 1.7476857828188581e-15,
+      "angle_rad": 1.2756845653184055e-11,
+      "count": 2.9554796381866054e-52,
+      "perfect": 1.6910818107244e-37,
+      "partial": [
+        {
+          "false_positive": 0.001,
+          "bound": 2.3939680913081516e-49
+        },
+        {
+          "false_positive": 0.000001,
+          "bound": 2.3939385327205135e-46
+        },
+        {
+          "false_positive": 1e-9,
+          "bound": 2.393934741499568e-43
+        },
+        {
+          "false_positive": 0,
+          "bound": 1.52197362965196e-37
+        }
+      ],
+      "perfect_bg100": 1.2292356979871737e-52
+    },
+    {
+      "length_m": 1,
+      "radius_m": 1000,
+      "f": 1.7476857828188578e-9,
+      "angle_rad": 1.2756845653184056e-8,
+      "count": 2.955479638186604e-40,
+      "perfect": 1.6910818107243997e-31,
+      "partial": [
+        {
+          "false_positive": 0.001,
+          "bound": 2.3939643300346565e-37
+        },
+        {
+          "false_positive": 0.000001,
+          "bound": 2.3901789870590774e-34
+        },
+        {
+          "false_positive": 1e-9,
+          "bound": 9.304374444742859e-32
+        },
+        {
+          "false_positive": 0,
+          "bound": 1.5219736296815145e-31
+        }
+      ],
+      "perfect_bg100": 1.2292356970936513e-40
+    },
+    {
+      "length_m": 1,
+      "radius_m": 100000,
+      "f": 0.000017476857828188576,
+      "angle_rad": 0.0000012756845653184055,
+      "count": 2.955479638186603e-32,
+      "perfect": 1.6910818107243995e-27,
+      "partial": [
+        {
+          "false_positive": 0.001,
+          "bound": 2.3569370796338668e-29
+        },
+        {
+          "false_positive": 0.000001,
+          "bound": 1.4309981963297296e-27
+        },
+        {
+          "false_positive": 1e-9,
+          "bound": 1.5218771718424584e-27
+        },
+        {
+          "false_positive": 0,
+          "bound": 1.5219739252045723e-27
+        }
+      ],
+      "perfect_bg100": 1.2292267628226643e-32
+    },
+    {
+      "length_m": 1000,
+      "radius_m": 1,
+      "f": 1.7476857828188581e-15,
+      "angle_rad": 1.2756845653184055e-11,
+      "count": 2.9554752282913463e-40,
+      "perfect": 1.6910792874474456e-25,
+      "partial": [
+        {
+          "false_positive": 0.001,
+          "bound": 2.3939645192488484e-37
+        },
+        {
+          "false_positive": 0.000001,
+          "bound": 2.393934960705315e-34
+        },
+        {
+          "false_positive": 1e-9,
+          "bound": 2.393931169490026e-31
+        },
+        {
+          "false_positive": 0,
+          "bound": 1.5219713587027011e-25
+        }
+      ],
+      "perfect_bg100": 1.229233863834569e-40
+    },
+    {
+      "length_m": 1000,
+      "radius_m": 1000,
+      "f": 1.7476857828188578e-9,
+      "angle_rad": 1.2756845653184056e-8,
+      "count": 2.955475228291345e-28,
+      "perfect": 1.691079287447445e-19,
+      "partial": [
+        {
+          "false_positive": 0.001,
+          "bound": 2.3939607579809655e-25
+        },
+        {
+          "false_positive": 0.000001,
+          "bound": 2.3901754206535273e-22
+        },
+        {
+          "false_positive": 1e-9,
+          "bound": 9.304360561609905e-20
+        },
+        {
+          "false_positive": 0,
+          "bound": 1.5219713587322556e-19
+        }
+      ],
+      "perfect_bg100": 1.2292338629410477e-28
+    },
+    {
+      "length_m": 1000,
+      "radius_m": 100000,
+      "f": 0.000017476857828188576,
+      "angle_rad": 0.0000012756845653184055,
+      "count": 2.9554752282913444e-20,
+      "perfect": 1.691079287447445e-15,
+      "partial": [
+        {
+          "false_positive": 0.001,
+          "bound": 2.356933562828838e-17
+        },
+        {
+          "false_positive": 0.000001,
+          "bound": 1.430996061125656e-15
+        },
+        {
+          "false_positive": 1e-9,
+          "bound": 1.5218749010371248e-15
+        },
+        {
+          "false_positive": 0,
+          "bound": 1.5219716542548722e-15
+        }
+      ],
+      "perfect_bg100": 1.2292249286833918e-20
+    }
+  ],
+  "cevns": [
+    {
+      "length_m": 1,
+      "sigma_cm2": 3.425946545439839e-41,
+      "tau": 2.1640683370895476e-16,
+      "scatter_probability": 2.1640683370895473e-16
+    },
+    {
+      "length_m": 1000,
+      "sigma_cm2": 3.425946545439839e-41,
+      "tau": 2.1640683370895474e-13,
+      "scatter_probability": 2.1640683370893131e-13
+    }
+  ],
+  "spin": [
+    {
+      "BL_Tm": 1,
+      "sm": 2.2028319338364846e-35,
+      "hypothetical": 3.524531094138377e-18
+    },
+    {
+      "BL_Tm": 10000,
+      "sm": 2.2028319338364846e-27,
+      "hypothetical": 3.524531093724299e-10
+    }
+  ],
+  "matter_index_contribution": 6.849444387230701e-19,
+  "gravity_rad": {
+    "earth_limb": 2.784524524202197e-9,
+    "sun_limb": 0.000008490267017584816,
+    "local": 2.9704641076474658e-24
+  },
+  "source_probe": {
+    "source_probe": "blocked",
+    "url": "https://www.sns.ias.edu/~jnb/SNdata/Export/BS2005/bs2005opflux.dat",
+    "error": "HTTPError",
+    "detail": "HTTP Error 403: Forbidden"
+  }
+}
