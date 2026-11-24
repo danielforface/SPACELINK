@@ -4,3 +4,5 @@ Model: V_e = 7.6e-14 * rho[g/cm3] * Y_e eV; hbar*c = 1.973269804e-7 eV m. Electr
 Use water rho=1, Ye=0.555; tungsten illustrative rho=19.3, Ye=74/183.84. Sweep L=1,100,1000,100000 m. Ideal detector toy model: 134 events/day/100t at 1 AU (seed S005, approximate, verify before scientific use), inverse-square distance, known baseline, no backgrounds; N=(z/m)^2 for fractional modulation m. Do not equate phase/bound with actual detector modulation. 
 Acceptance: zero density/length => zero phase/bound; dimensions; monotonic short-phase; saturation at pi; inverse square scaling; zero modulation invalid; independent hand calculation check. Report failures. Source constants and derivation must be reviewed in SL-P001, then independent density matrix solver. No claims of actual communication.
 Run: python experiments/SL-E001/bounds.py; python -m unittest discover -s tests -v
+
+SL-P001 correction: 134 is supported by S013 (Phase-II, 2019 DOI 10.1103/PhysRevD.100.082004), not S005 (2014 144). Toy inputs unchanged. See E002 protocol for derivation and independent conversion.
