@@ -25,3 +25,6 @@ S015 relevant full text pp.1–2,6 reviewed: second-order residual after phase a
 
 ## SL-P003 addendum
 S020 Borexino directionality DOI 10.1103/PhysRevLett.128.091803, 10.1103/PhysRevD.105.052002 (abstract/experiment page); S021 XENONnT 10.1103/PhysRevLett.129.161805 and PDG magnetic moment (abstract/PDG excerpt); S022 CEvNS ORNL indexed formula and 10.1103/PhysRevD.110.055040 abstract; S023 gravitational focusing 10.1103/PhysRevD.61.083001 abstract. See research/literature/SL-P003.md for scope and limitations.
+
+## SL-P004 addendum
+S024 PEANUTS DOI 10.1140/epjc/s10052-024-12423-3, pinned data mirror and license; S025 B16 arXiv:1611.09867; S026 crystal force sum rule DOI 10.1103/PhysRevLett.58.1173; S027 collective oscillations DOI 10.1146/annurev.nucl.012809.104524; S028 solar-pumped communication DOI 10.1088/1612-202X/aa688a; S029 solar laser review DOI 10.1063/5.0209355; S030 DSOC JPL system description; S031 US4573214A; S032 DOI 10.3390/photonics9030188. Access levels in research/literature/SL-P004.md.
