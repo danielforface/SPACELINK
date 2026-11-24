@@ -1,0 +1,2 @@
+# Research contributions
+Read AGENTS.md and research/OPERATIONS.md before opening an issue or draft PR. Identify hypothesis, experiment and pulse IDs, source provenance, protocol, commands, output, negative controls, uncertainty, limitations and independent reviewer. Separate exploration from confirmation. Do not submit restricted or private material; no license grant is implied by this file. Owner sets research direction and decides project licensing.
