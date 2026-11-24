@@ -20,3 +20,7 @@ jobs:
       - run: python experiments/SL-E002/audit.py
 
       - run: python experiments/SL-E003/link.py
+
+      - run: python experiments/SL-E004/screen.py
+      - if: matrix.python == '3.11'
+        run: python experiments/SL-E004/probe_source.py

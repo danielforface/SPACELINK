@@ -22,3 +22,6 @@ See [audit](literature/SL-P001.md). S001 relevant full text inspected (v2 pp. 2,
 
 ## SL-P002 addendum
 S015 relevant full text pp.1–2,6 reviewed: second-order residual after phase averaging established. S017 BS05(OP) production data https://www.sns.ias.edu/~jnb/SNdata/Export/BS2005/bs2005opflux.dat header verified, full runtime download blocked. S018 Borexino elastic scattering thesis excerpts; S019 https://doi.org/10.1103/PhysRevLett.107.141302 abstract verified. See research/literature/SL-P002.md for search and gaps.
+
+## SL-P003 addendum
+S020 Borexino directionality DOI 10.1103/PhysRevLett.128.091803, 10.1103/PhysRevD.105.052002 (abstract/experiment page); S021 XENONnT 10.1103/PhysRevLett.129.161805 and PDG magnetic moment (abstract/PDG excerpt); S022 CEvNS ORNL indexed formula and 10.1103/PhysRevD.110.055040 abstract; S023 gravitational focusing 10.1103/PhysRevD.61.083001 abstract. See research/literature/SL-P003.md for scope and limitations.
