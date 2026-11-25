@@ -34,3 +34,6 @@ S033 Bahcall line shape DOI 10.1103/PhysRevD.49.3923 and pinned PEANUTS spectrum
 
 ## SL-P006 addendum
 S041 Akhmedov/Smirnov 2022 wave packet/decoherence DOI 10.1007/JHEP11(2022)082; S042 DOI 10.1103/PhysRevD.92.013014 Be7 averaging; S043 Nature 10.1038/s41586-024-08479-6 lab wave packet localization; S044 NLR ASTM E490 composite and pinned pyspectral mirror; S045 DSOC SNSPD PMID 39876129; S046 CCSDS 141.0-B-2; S047 IEEE 9864223 passive sunlight LCD; S048 TU Delft Sol-Fi indexed excerpt; S049 PMID 40082473 hybrid solar microwave metasurface. Access levels and limitations in research/literature/SL-P006.md.
+
+## SL-P007 addendum
+S050 PMC7517446 Poisson/dead time; S051 IEEE1090084 M-ary Poisson; S052 DOI 10.1364/OE.26.000179 optical grating analogy; S053 DOI 10.1002/swe.20064 F10.7; S054 DOI 10.1029/2025EA004854 quiet baseline; S055 NRC solar monitoring; S056 SIGCOMM 2013 ambient backscatter; S057 IEEE8368232 survey; S058 NRAO Essential Radio Astronomy ch3; S059 NASA thermal control. Access levels in literature/SL-P007.md.

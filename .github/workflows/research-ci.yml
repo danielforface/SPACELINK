@@ -32,3 +32,7 @@ jobs:
 
       - run: python experiments/SL-E008/coherence.py
       - run: python experiments/SL-E009/optical.py
+
+      - run: python experiments/SL-E011/count.py
+      - run: python experiments/SL-E012/solar_diffraction.py
+      - run: python experiments/SL-E013/ambient.py
