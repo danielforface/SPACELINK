@@ -1,0 +1,216 @@
+{
+  "revision": "34e0f4969f6ec2ad50c99f01cfd5a62bfb045a0d",
+  "ci_run": 45694956501,
+  "job": 139489817250,
+  "e020": "DERIVED/SIMULATED",
+  "spectrum_sha256": "1cda1d4ac8f525977178d41aa3154387bb0f7d768cd79d0a265624a459577369",
+  "rate": [
+    {
+      "mass_kg": 1,
+      "earth_day": 0.000019469380738095012,
+      "mars_day": 0.00000838266680534674
+    },
+    {
+      "mass_kg": 1000,
+      "earth_day": 0.019469380738095014,
+      "mars_day": 0.008382666805346741
+    },
+    {
+      "mass_kg": 100000,
+      "earth_day": 1.946938073809502,
+      "mars_day": 0.8382666805346743
+    }
+  ],
+  "memories": [
+    {
+      "days": 1,
+      "effective_days": 0.970282345053905,
+      "retained_mars_100t": 0.8133553605697365,
+      "stable_mars_100t": 0.8382666805346743,
+      "fraction": 0.970282345053905,
+      "chi_bits": 2.6467472920623964e-35
+    },
+    {
+      "days": 7,
+      "effective_days": 5.703941587651295,
+      "retained_mars_100t": 4.781424180644131,
+      "stable_mars_100t": 5.86786676374272,
+      "fraction": 0.8148487982358993,
+      "chi_bits": 1.5559277181694391e-34
+    },
+    {
+      "days": 28,
+      "effective_days": 13.471516280995887,
+      "retained_mars_100t": 11.292723234639244,
+      "stable_mars_100t": 23.47146705497088,
+      "fraction": 0.4811255814641388,
+      "chi_bits": 3.6747756380870208e-34
+    },
+    {
+      "days": 90,
+      "effective_days": 16.419712326667142,
+      "retained_mars_100t": 13.76409774740954,
+      "stable_mars_100t": 75.44400124812068,
+      "fraction": 0.18244124807407935,
+      "chi_bits": 4.478987931562891e-34
+    },
+    {
+      "days": 365,
+      "effective_days": 16.490004313340382,
+      "retained_mars_100t": 13.823021177746304,
+      "stable_mars_100t": 305.96733839515616,
+      "fraction": 0.04517809400915173,
+      "chi_bits": 4.498162260182746e-34
+    }
+  ],
+  "single_atom": {
+    "one_year": 2.0624544e-27,
+    "years_for_95": 1.452508367483902e+27
+  },
+  "mars": {
+    "rate": 0.8382666805346743,
+    "eps": 4.749291240080495e-18,
+    "full_coverage_eps": 9.69865348117423e-10,
+    "chi_bits_day": 2.727811451537185e-35,
+    "full_coverage_chi_bits_day": 1.1375739252877644e-18,
+    "expected_inventory_steady": 13.823021181116529,
+    "day_exclusive_full_onoff_mi": 0.36713867865634403
+  },
+  "two_slots": [
+    {
+      "T_days": 1,
+      "late": 0.970282345053905,
+      "early": 0.9131903145726189
+    },
+    {
+      "T_days": 7,
+      "late": 5.703941587651295,
+      "early": 3.7309312106264185
+    },
+    {
+      "T_days": 28,
+      "late": 13.471516280995887,
+      "early": 2.4659551291366766
+    }
+  ],
+  "marked": [
+    {
+      "d": 0.1,
+      "pooled_kl": 0,
+      "marked_kl": 2.904940554533133,
+      "exclusive_presence_mi": 0.9996397588622193,
+      "exclusive_event_probability": 0.9999546000702375
+    },
+    {
+      "d": 0.0001,
+      "pooled_kl": 0,
+      "marked_kl": 0.000002885390101015762,
+      "exclusive_presence_mi": 0.004993026870033057,
+      "exclusive_event_probability": 0.009950166250831947
+    },
+    {
+      "d": 1e-8,
+      "pooled_kl": 0,
+      "marked_kl": 2.8853900817779274e-14,
+      "exclusive_presence_mi": 4.999999303368733e-7,
+      "exclusive_event_probability": 9.999995000001667e-7
+    }
+  ],
+  "mi_checks": [
+    {
+      "a": 0,
+      "b": 0.01,
+      "mi": 0.004993026870033056
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "mi": 0.4255306192034503
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "mi": 0
+    },
+    {
+      "a": 100,
+      "b": 100.01,
+      "mi": 1.8032784125421063e-7
+    },
+    {
+      "a": 100,
+      "b": 110,
+      "mi": 0.15394290754474937
+    }
+  ],
+  "threshold": {
+    "base": 0.5988967615498941,
+    "tau": 4.5835563937286206e-18,
+    "rows": [
+      {
+        "shift_eV": -100,
+        "weight": 0.6451681221763228,
+        "delta": 0.04627136062642867,
+        "relative": 0.07726099654752232,
+        "absolute_bound": 0.048938701372370025,
+        "oracle_error": 6.938893903907228e-18,
+        "absorption_difference_toy": 2.120873908457899e-19
+      },
+      {
+        "shift_eV": -10,
+        "weight": 0.6034140578161701,
+        "delta": 0.00451729626627595,
+        "relative": 0.007542696097714019,
+        "absolute_bound": 0.004893870137237002,
+        "oracle_error": 2.6020852139652106e-17,
+        "absorption_difference_toy": 2.0705282183655555e-20
+      },
+      {
+        "shift_eV": -1,
+        "weight": 0.5993473561442901,
+        "delta": 0.00045059459439600325,
+        "relative": 0.0007523744046134138,
+        "absolute_bound": 0.0004893870137237002,
+        "oracle_error": 1.723881454251952e-17,
+        "absorption_difference_toy": 2.0653257341233552e-21
+      },
+      {
+        "shift_eV": 1,
+        "weight": 0.598446419184883,
+        "delta": -0.0004503423650111804,
+        "relative": -0.0007519532479115975,
+        "absolute_bound": 0.0004893870137237002,
+        "oracle_error": 4.6349642873755315e-17,
+        "absorption_difference_toy": 2.064169626513864e-21
+      },
+      {
+        "shift_eV": 10,
+        "weight": 0.5944046882220976,
+        "delta": -0.004492073327796553,
+        "relative": -0.007500580427537206,
+        "absolute_bound": 0.004893870137237002,
+        "oracle_error": 3.469446951953614e-18,
+        "absorption_difference_toy": 2.058967142271969e-20
+      },
+      {
+        "shift_eV": 100,
+        "weight": 0.5552061315793065,
+        "delta": -0.04369062997058759,
+        "relative": -0.07295185543752138,
+        "absolute_bound": 0.048938701372370025,
+        "oracle_error": 6.938893903907228e-17,
+        "absorption_difference_toy": 2.0025846634771804e-19
+      }
+    ]
+  },
+  "resonance": {
+    "width_eV": 9.92207751663429e-23,
+    "peak_cm2": 6.588016933052143e-21,
+    "area_cm2_eV": 1.0267795241034415e-42,
+    "average_upper_cm2": 5.024925650536253e-46,
+    "peak_to_avg": 1.3110675443225869e+25,
+    "captures_per_tonne_day_upper": 0.018260000487631708,
+    "integral_rel_error": 2.220446049250313e-16
+  },
+  "gmax_per_eV": 0.0004893870137237002
+}

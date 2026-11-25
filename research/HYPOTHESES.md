@@ -26,3 +26,10 @@ All OPEN/UNVERIFIED. No novelty claims. Each requires causal sender control, rem
 - H013 natural Earth preparation -> controlled local phase-to-population conversion -> persistent remote flavor signal. E019 conditional positive, absolute link tiny; full wave-packet and actual geometry needed.
 - H014 fixed positive mixed-state spectrum, rank-one standard matter differential control: receiver-independent per-particle Holevo bound from transition speed and relative entropy. Model-specific derived constraint; change assumption for new candidates.
 - H015 time-dependent scalar phase -> energy sidebands; E019 toy TV bound extremely small, no full neutrino Hamiltonian or apparatus.
+
+## SL-P012 additions
+- H016 prepared material accumulates persistent marks and time-indexed retrieval; E020 real reference rates and lifetime screen, no viable link.
+- H017 marked categories and exclusive-event encoding; E020 toy information scaling positive only conditional on physical dark channel.
+- H018 near-threshold capture response controlled by target state; E020 ideal Li threshold screen, actual modulation unverified.
+- H019 natural inverse-decay narrow resonance -> retained daughter; E020 isolated line area screen, no actual resonance or useful coupling found.
+- H020 full-support flavor states under unitary controls and common measurement cannot yield an exclusive mark; derived weak relative probability bound, scope only.
