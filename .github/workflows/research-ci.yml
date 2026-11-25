@@ -26,3 +26,6 @@ jobs:
         run: python experiments/SL-E004/probe_source.py
 
       - run: python experiments/SL-E005/screen.py
+
+      - run: python experiments/SL-E006/solar.py
+      - run: python experiments/SL-E007/optical.py

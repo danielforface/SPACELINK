@@ -28,3 +28,6 @@ S020 Borexino directionality DOI 10.1103/PhysRevLett.128.091803, 10.1103/PhysRev
 
 ## SL-P004 addendum
 S024 PEANUTS DOI 10.1140/epjc/s10052-024-12423-3, pinned data mirror and license; S025 B16 arXiv:1611.09867; S026 crystal force sum rule DOI 10.1103/PhysRevLett.58.1173; S027 collective oscillations DOI 10.1146/annurev.nucl.012809.104524; S028 solar-pumped communication DOI 10.1088/1612-202X/aa688a; S029 solar laser review DOI 10.1063/5.0209355; S030 DSOC JPL system description; S031 US4573214A; S032 DOI 10.3390/photonics9030188. Access levels in research/literature/SL-P004.md.
+
+## SL-P005 addendum
+S033 Bahcall line shape DOI 10.1103/PhysRevD.49.3923 and pinned PEANUTS spectrum; S034 Borexino 2011 P_ee abstract and 2021 review; S035 TEM00 solar laser study S0927024824001296; S036 2025 solar laser PMID 41215441; S037 photon counting PPM PMID 18345074; S038 ASTM E490 reference; S039 2025 review and 2026 planar laser model; S040 6.09% solar laser title only. See research/literature/SL-P005.md for access and limits.
