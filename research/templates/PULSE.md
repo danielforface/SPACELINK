@@ -10,3 +10,6 @@ Changes with paths/commits; actual commands and run IDs; decisions and alternati
 Quantitative results, uncertainty, controls, references, baseline, CI at exact SHA, independent review state, negative outcomes. No unsupported claims.
 ## Continuation
 What is closed, what remains, exact next action, dependencies, blockers, ownership and review request. Update STATE.
+
+## Mandatory concise owner summary
+Achieved / negative / failed or blocked / evidence and exact revision / limits / next task. Include even if no progress.

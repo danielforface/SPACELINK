@@ -1,0 +1,13 @@
+# E006 — results
+2026-11-25; SIMULATED/DERIVED, not physical observation. Code 4e1c78298c013323626d881d18f742386ed93af8; CI https://github.com/danielforface/SPACELINK/actions/runs/45585356643 ; Python 3.12 job https://github.com/danielforface/SPACELINK/actions/runs/45585356643/job/139105430698 logs 34 tests OK and both E006/E007 executed. Exact outputs in results-ci.json. Source blobs verified and raw files not committed. Prior run 45584977834 failed E007 null test before E006 execution; retained.
+## Adiabatic mixture at 0.862 MeV
+| Model | p1 | p2 | p3 | Pee | conditional Pee (1km centered modulator) |
+|---|---:|---:|---:|---:|---:|
+| BS05 OP | .6154531376 | .3623610160 | .0221858464 | .5264113600 | .5220174384 |
+| B16 GS98 | .6167107339 | .3611069620 | .0221823040 | .5268870984 | .5226040020 |
+| B16 AGSS09 | .6164245417 | .3613923387 | .0221831197 | .5267788316 | .5225641933 |
+Independent 2-state reduction Pee .5265041504, .5269782621, .5268703777; separate JS connector implementation gave the same reduced values within rounding. Difference below .0001. Borexino 2011 .51±.07, review .53±.05 (S034), compatible but not independent validation of individual mass probabilities. No fit, Earth matter effect, uncertainty propagation or full nonadiabatic solver. 
+## Conditional mass mixture and coherence
+BS05 conditional p=(.603837916,.373943596,.022218489). 1m tungsten: deltaPe -2.1480873438e-13 vs prior toy -3.2372416517e-13; coherent trace distance 3.8569077159e-7, dephased TV 4.9646206737e-13. Ratio ~7.77e5. 1km: coherent distance .000311213102, dephased TV 4.1861651323e-7; deltaPe -1.5851842224e-7 vs toy -2.6145303004e-7. Coherent distance is an optimal quantum state distinguishability metric at fixed energy, NOT detector rate or a guaranteed measurement. In vacuum, energy-resolved unitary propagation preserves trace distance; complete dephasing contracts it.
+## Continuous tabulated spectrum
+Pinned spectrum 92 samples 859630–868730 eV; SHA256 recorded. Piecewise-linear normalized truncated spectrum, constant amplitude assumption. Integration-by-parts envelope for |F| at .524 AU: 4.9701660612e-5 (21), 1.4910498184e-6 (31). Independent JS calculation matches. At 1e9 m: .00389608 and .000116882. Bounds, not exact oscillation averages; no aliasing-based sampling at astronomical phases. Does not cover energy-dependent modulation amplitude, physical spectrum outside table, wave packet effects, or ideal energy-resolved receiver. Do not multiply blindly by trace distance to claim total channel bound. Next: include amplitude variation, detector energy resolution, packet separation and phase-control resource budget; validate against specialized solver or published curves.

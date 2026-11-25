@@ -1,0 +1,2303 @@
+{
+  "code_revision": "cd22391f43df0e924926aff1885a143efd6c225e",
+  "ci_run": 45618327889,
+  "job": 139219468035,
+  "radio": [
+    {
+      "sfu": 64,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 20,
+      "incident_W": 6.4e-13,
+      "rx_W": 1.0961866807270506e-21,
+      "awgn_ref_bits_s": 5.727245146242094,
+      "active_1W_ref_bits_s": 1592066684.0620146
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 100,
+      "incident_W": 6.4e-13,
+      "rx_W": 1.0961866807270506e-21,
+      "awgn_ref_bits_s": 1.1454490474373422,
+      "active_1W_ref_bits_s": 1359883177.5569313
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 300,
+      "incident_W": 6.4e-13,
+      "rx_W": 1.0961866807270506e-21,
+      "awgn_ref_bits_s": 0.3818163501562766,
+      "active_1W_ref_bits_s": 1201410182.3197775
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 20,
+      "incident_W": 6.4e-13,
+      "rx_W": 1.0961866807270507e-27,
+      "awgn_ref_bits_s": 0.000005727245259922753,
+      "active_1W_ref_bits_s": 8682247.99834397
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 100,
+      "incident_W": 6.4e-13,
+      "rx_W": 1.0961866807270507e-27,
+      "awgn_ref_bits_s": 0.0000011454490519845687,
+      "active_1W_ref_bits_s": 1778753.475314387
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 300,
+      "incident_W": 6.4e-13,
+      "rx_W": 1.0961866807270507e-27,
+      "awgn_ref_bits_s": 3.81816350661524e-7,
+      "active_1W_ref_bits_s": 595357.9226179776
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 20,
+      "incident_W": 6.4e-13,
+      "rx_W": 2.1653070236583714e-32,
+      "awgn_ref_bits_s": 1.1313077056637762e-10,
+      "active_1W_ref_bits_s": 176.7667207178956
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 100,
+      "incident_W": 6.4e-13,
+      "rx_W": 2.1653070236583714e-32,
+      "awgn_ref_bits_s": 2.2626154113275522e-11,
+      "active_1W_ref_bits_s": 35.3533614703074
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 300,
+      "incident_W": 6.4e-13,
+      "rx_W": 2.1653070236583714e-32,
+      "awgn_ref_bits_s": 7.542051371091841e-12,
+      "active_1W_ref_bits_s": 11.784454786032551
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 20,
+      "incident_W": 6.4e-11,
+      "rx_W": 1.0961866807270506e-17,
+      "awgn_ref_bits_s": 57261.08752938162,
+      "active_1W_ref_bits_s": 2256450000.4584203
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 100,
+      "incident_W": 6.4e-11,
+      "rx_W": 1.0961866807270506e-17,
+      "awgn_ref_bits_s": 11454.03582081047,
+      "active_1W_ref_bits_s": 2024257284.0039752
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 300,
+      "incident_W": 6.4e-11,
+      "rx_W": 1.0961866807270506e-17,
+      "awgn_ref_bits_s": 3818.1129827174723,
+      "active_1W_ref_bits_s": 1865761266.517324
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 20,
+      "incident_W": 6.4e-11,
+      "rx_W": 1.0961866807270506e-23,
+      "awgn_ref_bits_s": 0.0572724525878606,
+      "active_1W_ref_bits_s": 284856783.03949195
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 100,
+      "incident_W": 6.4e-11,
+      "rx_W": 1.0961866807270506e-23,
+      "awgn_ref_bits_s": 0.01145449051939101,
+      "active_1W_ref_bits_s": 116386578.0686768
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 300,
+      "incident_W": 6.4e-11,
+      "rx_W": 1.0961866807270506e-23,
+      "awgn_ref_bits_s": 0.00381816350656472,
+      "active_1W_ref_bits_s": 49929568.8067172
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 20,
+      "incident_W": 6.4e-11,
+      "rx_W": 2.1653070236583714e-28,
+      "awgn_ref_bits_s": 0.0000011313077056637718,
+      "active_1W_ref_bits_s": 17675.600067866177
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 100,
+      "incident_W": 6.4e-11,
+      "rx_W": 2.1653070236583714e-28,
+      "awgn_ref_bits_s": 2.2626154113275502e-7,
+      "active_1W_ref_bits_s": 3535.2932640437775
+    },
+    {
+      "sfu": 64,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 300,
+      "incident_W": 6.4e-11,
+      "rx_W": 2.1653070236583714e-28,
+      "awgn_ref_bits_s": 7.54205137109184e-8,
+      "active_1W_ref_bits_s": 1178.4407137745134
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 20,
+      "incident_W": 7e-13,
+      "rx_W": 1.1989541820452118e-21,
+      "awgn_ref_bits_s": 6.264174367045572,
+      "active_1W_ref_bits_s": 1592066684.0620146
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 100,
+      "incident_W": 7e-13,
+      "rx_W": 1.1989541820452118e-21,
+      "awgn_ref_bits_s": 1.2528348951683246,
+      "active_1W_ref_bits_s": 1359883177.5569313
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 300,
+      "incident_W": 7e-13,
+      "rx_W": 1.1989541820452118e-21,
+      "awgn_ref_bits_s": 0.4176116329316199,
+      "active_1W_ref_bits_s": 1201410182.3197775
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 20,
+      "incident_W": 7e-13,
+      "rx_W": 1.1989541820452116e-27,
+      "awgn_ref_bits_s": 0.0000062641745030405005,
+      "active_1W_ref_bits_s": 8682247.99834397
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 100,
+      "incident_W": 7e-13,
+      "rx_W": 1.1989541820452116e-27,
+      "awgn_ref_bits_s": 0.0000012528349006081217,
+      "active_1W_ref_bits_s": 1778753.475314387
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 300,
+      "incident_W": 7e-13,
+      "rx_W": 1.1989541820452116e-27,
+      "awgn_ref_bits_s": 4.1761163353604177e-7,
+      "active_1W_ref_bits_s": 595357.9226179776
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 20,
+      "incident_W": 7e-13,
+      "rx_W": 2.368304557126344e-32,
+      "awgn_ref_bits_s": 1.2373678030697552e-10,
+      "active_1W_ref_bits_s": 176.7667207178956
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 100,
+      "incident_W": 7e-13,
+      "rx_W": 2.368304557126344e-32,
+      "awgn_ref_bits_s": 2.47473560613951e-11,
+      "active_1W_ref_bits_s": 35.3533614703074
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 300,
+      "incident_W": 7e-13,
+      "rx_W": 2.368304557126344e-32,
+      "awgn_ref_bits_s": 8.249118687131702e-12,
+      "active_1W_ref_bits_s": 11.784454786032551
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 20,
+      "incident_W": 7e-11,
+      "rx_W": 1.1989541820452117e-17,
+      "awgn_ref_bits_s": 62628.14945886634,
+      "active_1W_ref_bits_s": 2256450000.4584203
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 100,
+      "incident_W": 7e-11,
+      "rx_W": 1.1989541820452117e-17,
+      "awgn_ref_bits_s": 12527.805057297704,
+      "active_1W_ref_bits_s": 2024257284.0039752
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 300,
+      "incident_W": 7e-11,
+      "rx_W": 1.1989541820452117e-17,
+      "awgn_ref_bits_s": 4176.055894274098,
+      "active_1W_ref_bits_s": 1865761266.517324
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 20,
+      "incident_W": 7e-11,
+      "rx_W": 1.1989541820452116e-23,
+      "awgn_ref_bits_s": 0.06264174501680685,
+      "active_1W_ref_bits_s": 284856783.03949195
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 100,
+      "incident_W": 7e-11,
+      "rx_W": 1.1989541820452116e-23,
+      "awgn_ref_bits_s": 0.012528349005537292,
+      "active_1W_ref_bits_s": 116386578.0686768
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 300,
+      "incident_W": 7e-11,
+      "rx_W": 1.1989541820452116e-23,
+      "awgn_ref_bits_s": 0.004176116335299982,
+      "active_1W_ref_bits_s": 49929568.8067172
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 20,
+      "incident_W": 7e-11,
+      "rx_W": 2.368304557126344e-28,
+      "awgn_ref_bits_s": 0.00000123736780306975,
+      "active_1W_ref_bits_s": 17675.600067866177
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 100,
+      "incident_W": 7e-11,
+      "rx_W": 2.368304557126344e-28,
+      "awgn_ref_bits_s": 2.4747356061395084e-7,
+      "active_1W_ref_bits_s": 3535.2932640437775
+    },
+    {
+      "sfu": 70,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 300,
+      "incident_W": 7e-11,
+      "rx_W": 2.368304557126344e-28,
+      "awgn_ref_bits_s": 8.249118687131699e-8,
+      "active_1W_ref_bits_s": 1178.4407137745134
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 20,
+      "incident_W": 2.0000000000000004e-12,
+      "rx_W": 3.425583377272034e-21,
+      "awgn_ref_bits_s": 17.897640327095232,
+      "active_1W_ref_bits_s": 1592066684.0620146
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 100,
+      "incident_W": 2.0000000000000004e-12,
+      "rx_W": 3.425583377272034e-21,
+      "awgn_ref_bits_s": 3.57952824304524,
+      "active_1W_ref_bits_s": 1359883177.5569313
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 300,
+      "incident_W": 2.0000000000000004e-12,
+      "rx_W": 3.425583377272034e-21,
+      "awgn_ref_bits_s": 1.193176090883203,
+      "active_1W_ref_bits_s": 1201410182.3197775
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 20,
+      "incident_W": 2.0000000000000004e-12,
+      "rx_W": 3.4255833772720334e-27,
+      "awgn_ref_bits_s": 0.00001789764143725785,
+      "active_1W_ref_bits_s": 8682247.99834397
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 100,
+      "incident_W": 2.0000000000000004e-12,
+      "rx_W": 3.4255833772720334e-27,
+      "awgn_ref_bits_s": 0.0000035795282874517477,
+      "active_1W_ref_bits_s": 1778753.475314387
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 300,
+      "incident_W": 2.0000000000000004e-12,
+      "rx_W": 3.4255833772720334e-27,
+      "awgn_ref_bits_s": 0.000001193176095817259,
+      "active_1W_ref_bits_s": 595357.9226179776
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 20,
+      "incident_W": 2.0000000000000004e-12,
+      "rx_W": 6.766584448932412e-32,
+      "awgn_ref_bits_s": 3.5353365801993014e-10,
+      "active_1W_ref_bits_s": 176.7667207178956
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 100,
+      "incident_W": 2.0000000000000004e-12,
+      "rx_W": 6.766584448932412e-32,
+      "awgn_ref_bits_s": 7.070673160398602e-11,
+      "active_1W_ref_bits_s": 35.3533614703074
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 300,
+      "incident_W": 2.0000000000000004e-12,
+      "rx_W": 6.766584448932412e-32,
+      "awgn_ref_bits_s": 2.3568910534662005e-11,
+      "active_1W_ref_bits_s": 11.784454786032551
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 20,
+      "incident_W": 2.0000000000000003e-10,
+      "rx_W": 3.425583377272034e-17,
+      "awgn_ref_bits_s": 178865.48972046076,
+      "active_1W_ref_bits_s": 2256450000.4584203
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 100,
+      "incident_W": 2.0000000000000003e-10,
+      "rx_W": 3.425583377272034e-17,
+      "awgn_ref_bits_s": 35790.842953606574,
+      "active_1W_ref_bits_s": 2024257284.0039752
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 300,
+      "incident_W": 2.0000000000000003e-10,
+      "rx_W": 3.425583377272034e-17,
+      "awgn_ref_bits_s": 11931.267579231115,
+      "active_1W_ref_bits_s": 1865761266.517324
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 20,
+      "incident_W": 2.0000000000000003e-10,
+      "rx_W": 3.425583377272034e-23,
+      "awgn_ref_bits_s": 0.1789764142615733,
+      "active_1W_ref_bits_s": 284856783.03949195
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 100,
+      "incident_W": 2.0000000000000003e-10,
+      "rx_W": 3.425583377272034e-23,
+      "awgn_ref_bits_s": 0.035795282870077265,
+      "active_1W_ref_bits_s": 116386578.0686768
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 300,
+      "incident_W": 2.0000000000000003e-10,
+      "rx_W": 3.425583377272034e-23,
+      "awgn_ref_bits_s": 0.011931760957679236,
+      "active_1W_ref_bits_s": 49929568.8067172
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 20,
+      "incident_W": 2.0000000000000003e-10,
+      "rx_W": 6.7665844489324125e-28,
+      "awgn_ref_bits_s": 0.0000035353365801992577,
+      "active_1W_ref_bits_s": 17675.600067866177
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 100,
+      "incident_W": 2.0000000000000003e-10,
+      "rx_W": 6.7665844489324125e-28,
+      "awgn_ref_bits_s": 7.070673160398586e-7,
+      "active_1W_ref_bits_s": 3535.2932640437775
+    },
+    {
+      "sfu": 200,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 300,
+      "incident_W": 2.0000000000000003e-10,
+      "rx_W": 6.7665844489324125e-28,
+      "awgn_ref_bits_s": 2.356891053466199e-7,
+      "active_1W_ref_bits_s": 1178.4407137745134
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 20,
+      "incident_W": 1.0000000000000001e-11,
+      "rx_W": 1.712791688636017e-20,
+      "awgn_ref_bits_s": 89.48817943221067,
+      "active_1W_ref_bits_s": 1592066684.0620146
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 100,
+      "incident_W": 1.0000000000000001e-11,
+      "rx_W": 1.712791688636017e-20,
+      "awgn_ref_bits_s": 17.89764032709523,
+      "active_1W_ref_bits_s": 1359883177.5569313
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 1,
+      "distance_m": 1000000,
+      "T_K": 300,
+      "incident_W": 1.0000000000000001e-11,
+      "rx_W": 1.712791688636017e-20,
+      "awgn_ref_bits_s": 5.965880355734788,
+      "active_1W_ref_bits_s": 1201410182.3197775
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 20,
+      "incident_W": 1.0000000000000001e-11,
+      "rx_W": 1.7127916886360167e-26,
+      "awgn_ref_bits_s": 0.00008948820718626705,
+      "active_1W_ref_bits_s": 8682247.99834397
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 100,
+      "incident_W": 1.0000000000000001e-11,
+      "rx_W": 1.7127916886360167e-26,
+      "awgn_ref_bits_s": 0.00001789764143725785,
+      "active_1W_ref_bits_s": 1778753.475314387
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 1,
+      "distance_m": 1000000000,
+      "T_K": 300,
+      "incident_W": 1.0000000000000001e-11,
+      "rx_W": 1.7127916886360167e-26,
+      "awgn_ref_bits_s": 0.000005965880479086197,
+      "active_1W_ref_bits_s": 595357.9226179776
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 20,
+      "incident_W": 1.0000000000000001e-11,
+      "rx_W": 3.383292224466206e-31,
+      "awgn_ref_bits_s": 1.7676682900996502e-9,
+      "active_1W_ref_bits_s": 176.7667207178956
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 100,
+      "incident_W": 1.0000000000000001e-11,
+      "rx_W": 3.383292224466206e-31,
+      "awgn_ref_bits_s": 3.535336580199301e-10,
+      "active_1W_ref_bits_s": 35.3533614703074
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 1,
+      "distance_m": 225000000000,
+      "T_K": 300,
+      "incident_W": 1.0000000000000001e-11,
+      "rx_W": 3.383292224466206e-31,
+      "awgn_ref_bits_s": 1.1784455267331005e-10,
+      "active_1W_ref_bits_s": 11.784454786032551
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 20,
+      "incident_W": 1e-9,
+      "rx_W": 1.7127916886360166e-16,
+      "awgn_ref_bits_s": 892118.0861371582,
+      "active_1W_ref_bits_s": 2256450000.4584203
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 100,
+      "incident_W": 1e-9,
+      "rx_W": 1.7127916886360166e-16,
+      "awgn_ref_bits_s": 178865.4897204607,
+      "active_1W_ref_bits_s": 2024257284.0039752
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 100,
+      "distance_m": 1000000,
+      "T_K": 300,
+      "incident_W": 1e-9,
+      "rx_W": 1.7127916886360166e-16,
+      "awgn_ref_bits_s": 59646.47303677885,
+      "active_1W_ref_bits_s": 1865761266.517324
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 20,
+      "incident_W": 1e-9,
+      "rx_W": 1.7127916886360166e-22,
+      "awgn_ref_bits_s": 0.8948820690875384,
+      "active_1W_ref_bits_s": 284856783.03949195
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 100,
+      "incident_W": 1e-9,
+      "rx_W": 1.7127916886360166e-22,
+      "awgn_ref_bits_s": 0.1789764142615732,
+      "active_1W_ref_bits_s": 116386578.0686768
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 100,
+      "distance_m": 1000000000,
+      "T_K": 300,
+      "incident_W": 1e-9,
+      "rx_W": 1.7127916886360166e-22,
+      "awgn_ref_bits_s": 0.05965880477852806,
+      "active_1W_ref_bits_s": 49929568.8067172
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 20,
+      "incident_W": 1e-9,
+      "rx_W": 3.383292224466206e-27,
+      "awgn_ref_bits_s": 0.00001767668290099542,
+      "active_1W_ref_bits_s": 17675.600067866177
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 100,
+      "incident_W": 1e-9,
+      "rx_W": 3.383292224466206e-27,
+      "awgn_ref_bits_s": 0.0000035353365801992573,
+      "active_1W_ref_bits_s": 3535.2932640437775
+    },
+    {
+      "sfu": 1000,
+      "aperture_m2": 100,
+      "distance_m": 225000000000,
+      "T_K": 300,
+      "incident_W": 1e-9,
+      "rx_W": 3.383292224466206e-27,
+      "awgn_ref_bits_s": 0.0000011784455267330956,
+      "active_1W_ref_bits_s": 1178.4407137745134
+    }
+  ],
+  "thermal": [
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.06419335628587791,
+          "area_mass_kg": 0.2710573645052998
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.032745691733686605,
+          "area_mass_kg": 0.13970894482674207
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.013651993929787708,
+          "area_mass_kg": 0.059959714857697716
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.2110976496476021,
+        0.07974922996904435
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.06419335628587791,
+          "area_mass_kg": 0.7846042147923231
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.032745691733686605,
+          "area_mass_kg": 0.4016744786962349
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.013651993929787708,
+          "area_mass_kg": 0.1691756662959994
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.6154285484963238,
+        0.2324988124002355
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.06419335628587791,
+          "area_mass_kg": 0.8417399722394758
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.032745691733686605,
+          "area_mass_kg": 0.4365791902642175
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.013651993929787708,
+          "area_mass_kg": 0.1905826228501869
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.6511573493892889,
+        0.2459965674140306
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.06419335628587791,
+          "area_mass_kg": 1.3552868225264991
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.032745691733686605,
+          "area_mass_kg": 0.6985447241337104
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.013651993929787708,
+          "area_mass_kg": 0.29979857428848855
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        1.0554882482380106,
+        0.39874614984522183
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.03762896690488107,
+          "area_mass_kg": 0.21792858574330615
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.019194923303852918,
+          "area_mass_kg": 0.11260740796707469
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.008002548199565501,
+          "area_mass_kg": 0.0486608233972533
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.16926776234605284,
+        0.06394658456982139
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.03762896690488107,
+          "area_mass_kg": 0.5189603209823548
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.019194923303852918,
+          "area_mass_kg": 0.26616679439789803
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.008002548199565501,
+          "area_mass_kg": 0.11268120899377732
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.40627911198857747,
+        0.15348558540412072
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.03762896690488107,
+          "area_mass_kg": 0.7886111934774822
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.019194923303852918,
+          "area_mass_kg": 0.4094776534045501
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.008002548199565501,
+          "area_mass_kg": 0.1792837313897425
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.6093274620877397,
+        0.23019392201480762
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.03762896690488107,
+          "area_mass_kg": 1.0896429287165308
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.019194923303852918,
+          "area_mass_kg": 0.5630370398353735
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.008002548199565501,
+          "area_mass_kg": 0.2433041169862665
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.8463388117302643,
+        0.3197329228491069
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.023491578790183338,
+          "area_mass_kg": 0.18965380951391067
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.011983296121411604,
+          "area_mass_kg": 0.09818415360219207
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.0049959514442036715,
+          "area_mass_kg": 0.04264762988652964
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.14700617962738102,
+        0.05553652371566243
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.023491578790183338,
+          "area_mass_kg": 0.3775864398353774
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.011983296121411604,
+          "area_mass_kg": 0.1940505225734849
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.0049959514442036715,
+          "area_mass_kg": 0.08261524144015901
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.29497119839521835,
+        0.11143528113332589
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.023491578790183338,
+          "area_mass_kg": 0.7603364172480866
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.011983296121411604,
+          "area_mass_kg": 0.3950543990396675
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.0049959514442036715,
+          "area_mass_kg": 0.17327053787901883
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.5870658793690678,
+        0.22178386116064866
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 19.01747572815534,
+          "radiator_m2": 0.023491578790183338,
+          "area_mass_kg": 0.9482690475695534
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 9.701010101010102,
+          "radiator_m2": 0.011983296121411604,
+          "area_mass_kg": 0.4909207680109603
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 4.044444444444444,
+          "radiator_m2": 0.0049959514442036715,
+          "area_mass_kg": 0.2132381494326482
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.7350308981369053,
+        0.2776826185783121
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.32096678142938956,
+          "area_mass_kg": 0.7846042147923231
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.163728458668433,
+          "area_mass_kg": 0.40167447869623485
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.06825996964893855,
+          "area_mass_kg": 0.1691756662959994
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.6154285484963238,
+        0.23249881240023546
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.32096678142938956,
+          "area_mass_kg": 3.3523384662274394
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.163728458668433,
+          "area_mass_kg": 1.711502148043699
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.06825996964893855,
+          "area_mass_kg": 0.7152554234875077
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        2.6370830427399317,
+        0.9962467245561912
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.32096678142938956,
+          "area_mass_kg": 1.3552868225264991
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.163728458668433,
+          "area_mass_kg": 0.6985447241337103
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.06825996964893855,
+          "area_mass_kg": 0.29979857428848855
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        1.0554882482380106,
+        0.3987461498452217
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.32096678142938956,
+          "area_mass_kg": 3.9230210739616154
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.163728458668433,
+          "area_mass_kg": 2.0083723934811744
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.06825996964893855,
+          "area_mass_kg": 0.8458783314799969
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        3.0771427424816187,
+        1.1624940620011774
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.18814483452440536,
+          "area_mass_kg": 0.5189603209823548
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.09597461651926457,
+          "area_mass_kg": 0.26616679439789803
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.040012740997827506,
+          "area_mass_kg": 0.11268120899377732
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.40627911198857747,
+        0.15348558540412072
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.18814483452440536,
+          "area_mass_kg": 2.0241189971775975
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.09597461651926457,
+          "area_mass_kg": 1.0339637265520145
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.040012740997827506,
+          "area_mass_kg": 0.43278313697639736
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        1.5913358602012,
+        0.6011805895756172
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.18814483452440536,
+          "area_mass_kg": 1.0896429287165308
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.09597461651926457,
+          "area_mass_kg": 0.5630370398353735
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.040012740997827506,
+          "area_mass_kg": 0.2433041169862665
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.8463388117302643,
+        0.3197329228491069
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.18814483452440536,
+          "area_mass_kg": 2.5948016049117735
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.09597461651926457,
+          "area_mass_kg": 1.33083397198949
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.040012740997827506,
+          "area_mass_kg": 0.5634060449688866
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        2.031395559942887,
+        0.7674279270206034
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.11745789395091667,
+          "area_mass_kg": 0.3775864398353773
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.059916480607058016,
+          "area_mass_kg": 0.19405052257348487
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.024979757221018358,
+          "area_mass_kg": 0.08261524144015901
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.2949711983952183,
+        0.11143528113332586
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.11745789395091667,
+          "area_mass_kg": 1.3172495914427107
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.059916480607058016,
+          "area_mass_kg": 0.6733823674299491
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.024979757221018358,
+          "area_mass_kg": 0.28245329920830586
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        1.0347962922344047,
+        0.3909290682216432
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.11745789395091667,
+          "area_mass_kg": 0.9482690475695533
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.059916480607058016,
+          "area_mass_kg": 0.4909207680109603
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.024979757221018358,
+          "area_mass_kg": 0.2132381494326482
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.7350308981369051,
+        0.2776826185783121
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 95.08737864077669,
+          "radiator_m2": 0.11745789395091667,
+          "area_mass_kg": 1.8879321991768867
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 48.505050505050505,
+          "radiator_m2": 0.059916480607058016,
+          "area_mass_kg": 0.9702526128674245
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 0.5,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 20.22222222222222,
+          "radiator_m2": 0.024979757221018358,
+          "area_mass_kg": 0.4130762072007951
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        1.4748559919760917,
+        0.5571764056666294
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.6419335628587791,
+          "area_mass_kg": 1.4265377776511023
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.327456917336866,
+          "area_mass_kg": 0.7291313960331008
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.1365199392978771,
+          "area_mass_kg": 0.3056956055938765
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        1.120842172057226,
+        0.42343579043922436
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.6419335628587791,
+          "area_mass_kg": 6.562006280521335
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.327456917336866,
+          "area_mass_kg": 3.3487867347280287
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.1365199392978771,
+          "area_mass_kg": 1.3978551199768932
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        5.164151160544442,
+        1.9509316147511355
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.6419335628587791,
+          "area_mass_kg": 1.9972203853852784
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.327456917336866,
+          "area_mass_kg": 1.0260016414705762
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.1365199392978771,
+          "area_mass_kg": 0.43631851358636564
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        1.5609018717989127,
+        0.5896831278842105
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.6419335628587791,
+          "area_mass_kg": 7.132688888255511
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.327456917336866,
+          "area_mass_kg": 3.645656980165504
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 280,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.1365199392978771,
+          "area_mass_kg": 1.5284780279693824
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        5.604210860286129,
+        2.117178952196122
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.3762896690488107,
+          "area_mass_kg": 0.8952499900311655
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.19194923303852915,
+          "area_mass_kg": 0.45811602743642715
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.08002548199565501,
+          "area_mass_kg": 0.19270669098943233
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.7025432990417331,
+        0.2654093364469948
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.3762896690488107,
+          "area_mass_kg": 3.905567342421651
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.19194923303852915,
+          "area_mass_kg": 1.9937098917446603
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.08002548199565501,
+          "area_mass_kg": 0.8329105469546724
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        3.072656795466979,
+        1.160799344789988
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.3762896690488107,
+          "area_mass_kg": 1.4659325977653415
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.19194923303852915,
+          "area_mass_kg": 0.7549862728739025
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.08002548199565501,
+          "area_mass_kg": 0.3233295989819215
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        1.14260299878342,
+        0.43165667389198104
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.3762896690488107,
+          "area_mass_kg": 4.476249950155827
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.19194923303852915,
+          "area_mass_kg": 2.2905801371821357
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 320,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.08002548199565501,
+          "area_mass_kg": 0.9635334549471616
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        3.5127164952086654,
+        1.327046682234974
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.23491578790183335,
+          "area_mass_kg": 0.6125022277372107
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.11983296121411603,
+          "area_mass_kg": 0.3138834837876009
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.049959514442036716,
+          "area_mass_kg": 0.13257475588219572
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.47992747185501505,
+        0.18130872790540517
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.23491578790183335,
+          "area_mass_kg": 2.4918285309518775
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.11983296121411603,
+          "area_mass_kg": 1.2725471735005294
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 1,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.049959514442036716,
+          "area_mass_kg": 0.5322508714184895
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        1.959577659533388,
+        0.7402963020820399
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.23491578790183335,
+          "area_mass_kg": 1.1831848354713868
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.11983296121411603,
+          "area_mass_kg": 0.6107537292250763
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 2,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.049959514442036716,
+          "area_mass_kg": 0.2631976638746849
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        0.9199871715967018,
+        0.3475560653503914
+      ]
+    },
+    {
+      "rows": [
+        {
+          "eta": 0.0206,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.142670651933544,
+          "heat_W": 190.17475728155338,
+          "radiator_m2": 0.23491578790183335,
+          "area_mass_kg": 3.0625111386860535
+        },
+        {
+          "eta": 0.0396,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.07421756135936886,
+          "heat_W": 97.01010101010101,
+          "radiator_m2": 0.11983296121411603,
+          "area_mass_kg": 1.5694174189380048
+        },
+        {
+          "eta": 0.09,
+          "heat_fraction": 1,
+          "T_K": 360,
+          "collector_kg_m2": 5,
+          "radiator_kg_m2": 10,
+          "collector_m2": 0.032655726998122296,
+          "heat_W": 40.44444444444444,
+          "radiator_m2": 0.049959514442036716,
+          "area_mass_kg": 0.6628737794109787
+        }
+      ],
+      "pv_extra_mass_break_even_kg": [
+        2.399637359275075,
+        0.9065436395270261
+      ]
+    }
+  ],
+  "e013_asymmetric": [
+    {
+      "direct": {
+        "eta": 0.0206,
+        "heat_fraction": 0.01,
+        "T_K": 320,
+        "collector_kg_m2": 5,
+        "radiator_kg_m2": 10,
+        "collector_m2": 0.142670651933544,
+        "heat_W": 1.901747572815534,
+        "radiator_m2": 0.0037628966904881076,
+        "area_mass_kg": 0.750982226572601
+      },
+      "pv": {
+        "eta": 0.09,
+        "heat_fraction": 1,
+        "T_K": 320,
+        "collector_kg_m2": 5,
+        "radiator_kg_m2": 10,
+        "collector_m2": 0.032655726998122296,
+        "heat_W": 40.44444444444444,
+        "radiator_m2": 0.08002548199565501,
+        "area_mass_kg": 0.9635334549471616
+      }
+    },
+    {
+      "direct": {
+        "eta": 0.0206,
+        "heat_fraction": 0.1,
+        "T_K": 320,
+        "collector_kg_m2": 5,
+        "radiator_kg_m2": 10,
+        "collector_m2": 0.142670651933544,
+        "heat_W": 19.01747572815534,
+        "radiator_m2": 0.03762896690488107,
+        "area_mass_kg": 1.0896429287165308
+      },
+      "pv": {
+        "eta": 0.09,
+        "heat_fraction": 1,
+        "T_K": 320,
+        "collector_kg_m2": 5,
+        "radiator_kg_m2": 10,
+        "collector_m2": 0.032655726998122296,
+        "heat_W": 40.44444444444444,
+        "radiator_m2": 0.08002548199565501,
+        "area_mass_kg": 0.9635334549471616
+      }
+    },
+    {
+      "direct": {
+        "eta": 0.0206,
+        "heat_fraction": 0.5,
+        "T_K": 320,
+        "collector_kg_m2": 5,
+        "radiator_kg_m2": 10,
+        "collector_m2": 0.142670651933544,
+        "heat_W": 95.08737864077669,
+        "radiator_m2": 0.18814483452440536,
+        "area_mass_kg": 2.5948016049117735
+      },
+      "pv": {
+        "eta": 0.09,
+        "heat_fraction": 1,
+        "T_K": 320,
+        "collector_kg_m2": 5,
+        "radiator_kg_m2": 10,
+        "collector_m2": 0.032655726998122296,
+        "heat_W": 40.44444444444444,
+        "radiator_m2": 0.08002548199565501,
+        "area_mass_kg": 0.9635334549471616
+      }
+    },
+    {
+      "direct": {
+        "eta": 0.0206,
+        "heat_fraction": 1,
+        "T_K": 320,
+        "collector_kg_m2": 5,
+        "radiator_kg_m2": 10,
+        "collector_m2": 0.142670651933544,
+        "heat_W": 190.17475728155338,
+        "radiator_m2": 0.3762896690488107,
+        "area_mass_kg": 4.476249950155827
+      },
+      "pv": {
+        "eta": 0.09,
+        "heat_fraction": 1,
+        "T_K": 320,
+        "collector_kg_m2": 5,
+        "radiator_kg_m2": 10,
+        "collector_m2": 0.032655726998122296,
+        "heat_W": 40.44444444444444,
+        "radiator_m2": 0.08002548199565501,
+        "area_mass_kg": 0.9635334549471616
+      }
+    }
+  ]
+}

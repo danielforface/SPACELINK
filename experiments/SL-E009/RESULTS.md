@@ -1,0 +1,18 @@
+# E009 — reference spectrum and gated information results
+2026-11-25; SIMULATED, not physical observation or throughput. Code 6eb31cd5aeca3f32481cb7048924a6b04d712f1b; run https://github.com/danielforface/SPACELINK/actions/runs/45588052309; 40 tests OK in job 139114648189. 144 scenarios = 3 modes x 2 bands x 3 backgrounds x 2 guards x 4 M; 7 gate lengths per scenario = 1008 matched OOK/PPM comparisons. Exact output retained. Initial CI run 45587891891 passed 39 tests but saturated click probability rounded to one; initial output retained separately. Corrected output relabels rare no-click event; regression passes. Very extreme underflow remains, reported zero not physical impossibility. 
+## Reference spectrum
+1697 parsed rows, raw trapezoid 1366.090796839 W/m², official reference 1366.1. Pinned blob and SHA256 in JSON; separate connector JS trapezoid verified same integral and band values. Normalized to 1361. 1nm around 1064nm .642963755251414 W/m² vs E007 Planck .6305650703203608; 10nm 6.379935960455175 W/m². Composite reference, not pure observed spectrum or resolved sub-nm structure. No raw file redistribution; original official byte comparison unavailable.
+## Common central scenario: 1nm, bg fraction 1e-7, 20ns guard, M=4
+| mode | signal/s | background/s | best gate s (both) | OOK bits/s | PPM bits/s |
+|---|---:|---:|---:|---:|---:|
+| mirror | 5.89896008 | 6423.5293 | 1e-6 | .000715748026 | .000715748026 |
+| solar TEM00 | 527479578 | 6423.5293 | 1e-8 | 26566676.05 | 16579585.51 |
+| PV assumed | 2304522430 | 6423.5293 | 1e-8 | 27020469.04 | 16665060.88 |
+Equal peak and average emitted power per mode and gate with p=1/M and same duty/guard; across different optimized gates or different efficiency modes average output is not identical. Same solar collector/aperture as E007; no mass/thermal/real device constraints. Single binary gated receiver, not an SNSPD array; active high-power channel saturates, so similar rates do not imply similar received power/efficiency. OOK/PPM are not full count-channel capacity, no coding or modulation speed validation.
+Across grid max mirror OOK 3.220894 bits/s; TEM00 32.560303 Mbps; assumed PV 33.332956 Mbps. PPM max 3.220822 bits/s, 16.581330 Mbps, 16.666649 Mbps respectively; different average constraints across M and gates, NOT general PPM vs OOK ranking.
+## Slow passive gate sensitivity, 10nm, M=4, 1us guard
+At 1ms gate: background fractions 1e-10, 1e-7, 1e-4 yield PPM 2.237346984, 2.274180578e-28, numerical underflow zero bits/s. Extreme saturation hides no-click events; not physical channel capacity. Real slow analog intensity/count receiver may outperform binary click; not modeled. 
+## Four independent spectral bands
+10nm split into 4x2.5nm; total signal 58.533606646337 photons/s conserved within rounding. 1ms gates, 1us guard, p=.5, independent data per band, four detectors vs one. Low bg 1e-10, zero dark per channel: 6.526728 vs 6.750629 bits/s (~3.43% improvement). With 100 dark/s per channel: 2.929211 vs 1.179778 bits/s (worse). At bg 1e-7, 100 dark/s: 3.04699e-28 vs 2.14427e-8 bits/s, both tiny. At 1e-4 both underflow. Gains/losses conditional, not general spectral multiplex advantage; no duplicated photon budget, but extra modulators and detectors. Prior art S047/S048. 
+## Limitations and next
+No measured background/pointing, full detector recovery/afterpulsing, finite bandwidth/modulator rise time or analog/full count receiver. PPM prior art, no CCSDS compliance. No actual thermal/mass crossover yet: equal solar collector and apertures alone insufficient; next derive system mass/thermal parameter budget and introduce real component constraints. E010 is a protocol only, not run. 

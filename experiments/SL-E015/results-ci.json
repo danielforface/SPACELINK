@@ -1,0 +1,403 @@
+{
+  "code_revision": "3566068e0ff05734dc23bb88fb49660d03b7e070",
+  "ci_run": 45624762394,
+  "job": 139241898355,
+  "rows": [
+    {
+      "E_MeV": 0.862,
+      "A": 40,
+      "Z": 18,
+      "sigma_point_cm2": 1.3398574537900842e-42,
+      "sigma_cm2": 1.3397426258752404e-42,
+      "form_factor_integral": 0.999914298409492,
+      "convergence": 2.220446049250313e-16,
+      "W_1km_tau": null,
+      "cones": [
+        {
+          "angle_rad": 1e-8,
+          "forward_fraction": 5.000428544679501e-17,
+          "backward_fraction": 6.248928726841346e-34,
+          "forward_point": 5.0000000000000005e-17,
+          "backward_point": 6.250000000000001e-34,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.0001,
+          "forward_fraction": 5.000428534260335e-9,
+          "backward_fraction": 6.248928716429144e-18,
+          "forward_point": 4.9999999895833345e-9,
+          "backward_point": 6.249999989583336e-18,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.01,
+          "forward_fraction": 0.000050003243541946926,
+          "backward_fraction": 6.248824605589287e-10,
+          "forward_point": 0.000049998958345138806,
+          "backward_point": 6.249895834114579e-10,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.1,
+          "forward_fraction": 0.004990021181938757,
+          "backward_fraction": 0.000006238524324553975,
+          "forward_point": 0.004989595130831913,
+          "backward_point": 0.000006239591142320843,
+          "W_1km_forward_probability": null
+        }
+      ]
+    },
+    {
+      "E_MeV": 10,
+      "A": 40,
+      "Z": 18,
+      "sigma_point_cm2": 1.803200690389915e-40,
+      "sigma_cm2": 1.7825551331750938e-40,
+      "form_factor_integral": 0.9885506048634238,
+      "convergence": 2.886579864025407e-15,
+      "W_1km_tau": null,
+      "cones": [
+        {
+          "angle_rad": 1e-8,
+          "forward_fraction": 5.057910010272859e-17,
+          "backward_fraction": 6.106827927322182e-34,
+          "forward_point": 5.0000000000000005e-17,
+          "backward_point": 6.250000000000001e-34,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.0001,
+          "forward_fraction": 5.057909999516769e-9,
+          "backward_fraction": 6.106827917498089e-18,
+          "forward_point": 4.9999999895833345e-9,
+          "backward_point": 6.249999989583336e-18,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.01,
+          "forward_fraction": 0.000050578024506504596,
+          "backward_fraction": 6.106729687034165e-10,
+          "forward_point": 0.000049998958345138806,
+          "backward_point": 6.249895834114579e-10,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.1,
+          "forward_fraction": 0.00504716658885663,
+          "backward_fraction": 0.000006097010587044119,
+          "forward_point": 0.004989595130831913,
+          "backward_point": 0.000006239591142320843,
+          "W_1km_forward_probability": null
+        }
+      ]
+    },
+    {
+      "E_MeV": 50,
+      "A": 40,
+      "Z": 18,
+      "sigma_point_cm2": 4.5080017259747885e-39,
+      "sigma_cm2": 3.420853853778261e-39,
+      "form_factor_integral": 0.7588404046226385,
+      "convergence": 1.4432899320127035e-15,
+      "W_1km_tau": null,
+      "cones": [
+        {
+          "angle_rad": 1e-8,
+          "forward_fraction": 6.58900075634011e-17,
+          "backward_fraction": 3.260445041249069e-34,
+          "forward_point": 5.0000000000000005e-17,
+          "backward_point": 6.250000000000001e-34,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.0001,
+          "forward_fraction": 6.589000735487956e-9,
+          "backward_fraction": 3.2604450412380655e-18,
+          "forward_point": 4.9999999895833345e-9,
+          "backward_point": 6.249999989583336e-18,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.01,
+          "forward_fraction": 0.00006588792239165801,
+          "backward_fraction": 3.260444930659471e-10,
+          "forward_point": 0.000049998958345138806,
+          "backward_point": 6.249895834114579e-10,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.1,
+          "forward_fraction": 0.006568192241975744,
+          "backward_fraction": 0.0000032604287839557798,
+          "forward_point": 0.004989595130831913,
+          "backward_point": 0.000006239591142320843,
+          "W_1km_forward_probability": null
+        }
+      ]
+    },
+    {
+      "E_MeV": 0.862,
+      "A": 184,
+      "Z": 74,
+      "sigma_point_cm2": 3.425946545439839e-41,
+      "sigma_cm2": 3.425134527236255e-41,
+      "form_factor_integral": 0.9997629798968508,
+      "convergence": 2.1094237467877974e-15,
+      "W_1km_tau": 2.1635554093890686e-13,
+      "cones": [
+        {
+          "angle_rad": 1e-8,
+          "forward_fraction": 5.001185381474986e-17,
+          "backward_fraction": 6.247037223664733e-34,
+          "forward_point": 5.0000000000000005e-17,
+          "backward_point": 6.250000000000001e-34,
+          "W_1km_forward_probability": 1.0820341685447739e-29
+        },
+        {
+          "angle_rad": 0.0001,
+          "forward_fraction": 5.001185371051404e-9,
+          "backward_fraction": 6.247037213260707e-18,
+          "forward_point": 4.9999999895833345e-9,
+          "backward_point": 6.249999989583336e-18,
+          "W_1km_forward_probability": 1.0820341662895741e-21
+        },
+        {
+          "angle_rad": 0.01,
+          "forward_fraction": 0.000050010811468366,
+          "backward_fraction": 6.246933181209362e-10,
+          "forward_point": 0.000049998958345138806,
+          "backward_point": 6.249895834114579e-10,
+          "W_1km_forward_probability": 1.0820116168032013e-17
+        },
+        {
+          "angle_rad": 0.1,
+          "forward_fraction": 0.004990773614498806,
+          "backward_fraction": 0.0000062366406870050115,
+          "forward_point": 0.004989595130831913,
+          "backward_point": 0.000006239591142320843,
+          "W_1km_forward_probability": 1.0797815250685125e-15
+        }
+      ]
+    },
+    {
+      "E_MeV": 10,
+      "A": 184,
+      "Z": 74,
+      "sigma_point_cm2": 4.6106913526518464e-39,
+      "sigma_cm2": 4.466569184387304e-39,
+      "form_factor_integral": 0.9687417445148112,
+      "convergence": 6.661338147750939e-16,
+      "W_1km_tau": 2.8213986468114872e-11,
+      "cones": [
+        {
+          "angle_rad": 1e-8,
+          "forward_fraction": 5.161334306393725e-17,
+          "backward_fraction": 5.858916894396176e-34,
+          "forward_point": 5.0000000000000005e-17,
+          "backward_point": 6.250000000000001e-34,
+          "W_1km_forward_probability": 1.4562181627800962e-27
+        },
+        {
+          "angle_rad": 0.0001,
+          "forward_fraction": 5.161334295023455e-9,
+          "backward_fraction": 5.858916885578969e-18,
+          "forward_point": 4.9999999895833345e-9,
+          "backward_point": 6.249999989583336e-18,
+          "W_1km_forward_probability": 1.4562181595720898e-19
+        },
+        {
+          "angle_rad": 0.01,
+          "forward_fraction": 0.00005161220605122065,
+          "backward_fraction": 5.858828722817776e-10,
+          "forward_point": 0.000049998958345138806,
+          "backward_point": 6.249895834114579e-10,
+          "W_1km_forward_probability": 1.456186083118696e-15
+        },
+        {
+          "angle_rad": 0.1,
+          "forward_fraction": 0.005149978311513461,
+          "backward_fraction": 0.000005850104713725902,
+          "forward_point": 0.004989595130831913,
+          "backward_point": 0.000006239591142320843,
+          "W_1km_forward_probability": 1.4530141839212587e-13
+        }
+      ]
+    },
+    {
+      "E_MeV": 50,
+      "A": 184,
+      "Z": 74,
+      "sigma_point_cm2": 1.1526728381629618e-37,
+      "sigma_cm2": 5.735159906988315e-38,
+      "form_factor_integral": 0.4975531405883179,
+      "convergence": 3.3306690738754696e-15,
+      "W_1km_tau": 3.622729601364937e-10,
+      "cones": [
+        {
+          "angle_rad": 1e-8,
+          "forward_fraction": 1.0049177850807834e-16,
+          "backward_fraction": 5.840291235047408e-35,
+          "forward_point": 5.0000000000000005e-17,
+          "backward_point": 6.250000000000001e-34,
+          "W_1km_forward_probability": 3.640545406950242e-26
+        },
+        {
+          "angle_rad": 0.0001,
+          "forward_fraction": 1.004917779981553e-8,
+          "backward_fraction": 5.840291266730222e-19,
+          "forward_point": 4.9999999895833345e-9,
+          "backward_point": 6.249999989583336e-18,
+          "W_1km_forward_probability": 3.640545388477109e-18
+        },
+        {
+          "angle_rad": 0.01,
+          "forward_fraction": 0.00010048667945301479,
+          "backward_fraction": 5.8406080660227e-11,
+          "forward_point": 0.000049998958345138806,
+          "backward_point": 6.249895834114579e-10,
+          "W_1km_forward_probability": 3.6403606819730644e-14
+        },
+        {
+          "angle_rad": 0.1,
+          "forward_fraction": 0.009998360373206318,
+          "backward_fraction": 5.8720027938835e-7,
+          "forward_point": 0.004989595130831913,
+          "backward_point": 0.000006239591142320843,
+          "W_1km_forward_probability": 3.6221356089128703e-12
+        }
+      ]
+    },
+    {
+      "E_MeV": 0.862,
+      "A": 208,
+      "Z": 82,
+      "sigma_point_cm2": 4.510262828183282e-41,
+      "sigma_cm2": 4.5091027736520924e-41,
+      "form_factor_integral": 0.9997427966893768,
+      "convergence": 8.659739592076221e-15,
+      "W_1km_tau": null,
+      "cones": [
+        {
+          "angle_rad": 1e-8,
+          "forward_fraction": 5.001286347405928e-17,
+          "backward_fraction": 6.246784929128686e-34,
+          "forward_point": 5.0000000000000005e-17,
+          "backward_point": 6.250000000000001e-34,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.0001,
+          "forward_fraction": 5.001286336981758e-9,
+          "backward_fraction": 6.246784918724458e-18,
+          "forward_point": 4.9999999895833345e-9,
+          "backward_point": 6.249999989583336e-18,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.01,
+          "forward_fraction": 0.0000500118210687681,
+          "backward_fraction": 6.246680897181269e-10,
+          "forward_point": 0.000049998958345138806,
+          "backward_point": 6.249895834114579e-10,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.1,
+          "forward_fraction": 0.0049908739928405535,
+          "backward_fraction": 0.000006236389441505604,
+          "forward_point": 0.004989595130831913,
+          "backward_point": 0.000006239591142320843,
+          "W_1km_forward_probability": null
+        }
+      ]
+    },
+    {
+      "E_MeV": 10,
+      "A": 208,
+      "Z": 82,
+      "sigma_point_cm2": 6.069980819686697e-39,
+      "sigma_cm2": 5.864440664177882e-39,
+      "form_factor_integral": 0.9661382528850522,
+      "convergence": 6.661338147750939e-16,
+      "W_1km_tau": null,
+      "cones": [
+        {
+          "angle_rad": 1e-8,
+          "forward_fraction": 5.175242761653578e-17,
+          "backward_fraction": 5.826319980173506e-34,
+          "forward_point": 5.0000000000000005e-17,
+          "backward_point": 6.250000000000001e-34,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.0001,
+          "forward_fraction": 5.175242750199936e-9,
+          "backward_fraction": 5.8263199714868435e-18,
+          "forward_point": 4.9999999895833345e-9,
+          "backward_point": 6.249999989583336e-18,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.01,
+          "forward_fraction": 0.00005175128226683146,
+          "backward_fraction": 5.826233114023583e-10,
+          "forward_point": 0.000049998958345138806,
+          "backward_point": 6.249895834114579e-10,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.1,
+          "forward_fraction": 0.005163803616118333,
+          "backward_fraction": 0.000005817638126241983,
+          "forward_point": 0.004989595130831913,
+          "backward_point": 0.000006239591142320843,
+          "W_1km_forward_probability": null
+        }
+      ]
+    },
+    {
+      "E_MeV": 50,
+      "A": 208,
+      "Z": 82,
+      "sigma_point_cm2": 1.5174952049216744e-37,
+      "sigma_cm2": 7.183433327523933e-38,
+      "form_factor_integral": 0.47337436745934935,
+      "convergence": 3.6637359812630166e-15,
+      "W_1km_tau": null,
+      "cones": [
+        {
+          "angle_rad": 1e-8,
+          "forward_fraction": 1.0562464602457318e-16,
+          "backward_fraction": 4.199066978989785e-35,
+          "forward_point": 5.0000000000000005e-17,
+          "backward_point": 6.250000000000001e-34,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.0001,
+          "forward_fraction": 1.0562464546169848e-8,
+          "backward_fraction": 4.199067007537843e-19,
+          "forward_point": 4.9999999895833345e-9,
+          "backward_point": 6.249999989583336e-18,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.01,
+          "forward_fraction": 0.00010561901748048985,
+          "backward_fraction": 4.199352463686748e-11,
+          "forward_point": 0.000049998958345138806,
+          "backward_point": 6.249895834114579e-10,
+          "W_1km_forward_probability": null
+        },
+        {
+          "angle_rad": 0.1,
+          "forward_fraction": 0.010506379373713666,
+          "backward_fraction": 4.2276566808578694e-7,
+          "forward_point": 0.004989595130831913,
+          "backward_point": 0.000006239591142320843,
+          "W_1km_forward_probability": null
+        }
+      ]
+    }
+  ]
+}

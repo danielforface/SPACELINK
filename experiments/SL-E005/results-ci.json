@@ -1,0 +1,234 @@
+{
+  "code_revision": "22d693eacbc2fd2f3630705d2bdd0b125a847dc5",
+  "run": 45383325718,
+  "job": 138407724069,
+  "initial_run": {
+    "code_revision": "23193a0e31ef478ff838350ea29934fa60ff855d",
+    "run": 45383210025,
+    "job": 138407317305,
+    "models": [
+      {
+        "name": "BS05-OP",
+        "url": "https://raw.githubusercontent.com/michelelucente/PEANUTS/1783f9f976c2f445ccf686c25ba003baeee8f357/Data/bs2005opflux.dat",
+        "blob": "9435d546fc7079b1d82e6922ccbf0405c5a609dd",
+        "sha256": "ed89a19169f4ac65bfcf054cb9bbfd90332ed95b3dcc85f7d850c2dc38db535b",
+        "rows": 1219,
+        "norm": 0.9999950599196824,
+        "coverage": [
+          {
+            "radius_m": 1,
+            "f": 4.896852850511905e-15,
+            "disk": 1.7476857828188581e-15
+          },
+          {
+            "radius_m": 1000,
+            "f": 4.89685631444845e-9,
+            "disk": 1.7476857828188578e-9
+          },
+          {
+            "radius_m": 100000,
+            "f": 0.00004997569503786994,
+            "disk": 0.000017476857828188576
+          },
+          {
+            "radius_m": 10000000,
+            "f": 0.37406573185809205,
+            "disk": 0.1747685782818858
+          }
+        ]
+      },
+      {
+        "name": "B16-GS98",
+        "url": "https://raw.githubusercontent.com/michelelucente/PEANUTS/1783f9f976c2f445ccf686c25ba003baeee8f357/Data/nudistr_b16_gs98.dat",
+        "blocked": "unexpected normalization 1999.9185252147408"
+      },
+      {
+        "name": "B16-AGSS09",
+        "url": "https://raw.githubusercontent.com/michelelucente/PEANUTS/1783f9f976c2f445ccf686c25ba003baeee8f357/Data/nudistr_b16_agss09.dat",
+        "blocked": "unexpected normalization 2000.1166767334842"
+      }
+    ]
+  },
+  "evidence": "DERIVED/SIMULATED screening",
+  "mass": [
+    {
+      "tv": 7.803880955793098e-13,
+      "B": 2.2381659673576154e-12,
+      "kl_bits": 2.1390222478947837e-24,
+      "chi_bits": 4.278044495792101e-24,
+      "column_ceiling_bits": 3.8544094052414596e-22,
+      "length_m": 1,
+      "illustrative_tagged_ceiling_bits_day": 1.4008717986123725e-29
+    },
+    {
+      "tv": 7.764682874712374e-9,
+      "B": 2.2381659506613283e-8,
+      "kl_bits": 2.1008751591852226e-16,
+      "chi_bits": 4.2017503420882316e-16,
+      "column_ceiling_bits": 3.854409347735157e-14,
+      "length_m": 100,
+      "illustrative_tagged_ceiling_bits_day": 1.400871777711905e-21
+    },
+    {
+      "tv": 6.911796105219639e-7,
+      "B": 0.0000022381642975641506,
+      "kl_bits": 1.6493133197568435e-12,
+      "chi_bits": 3.298628045988529e-12,
+      "column_ceiling_bits": 3.854403654045768e-10,
+      "length_m": 1000,
+      "illustrative_tagged_ceiling_bits_day": 1.4008697083601428e-17
+    },
+    {
+      "tv": 0.00005750680303126103,
+      "B": 0.02221517761847063,
+      "kl_bits": 1.1458998302370828e-8,
+      "chi_bits": 2.2918814804287673e-8,
+      "column_ceiling_bits": 0.03797281966168842,
+      "length_m": 100000,
+      "illustrative_tagged_ceiling_bits_day": 1.380109028000888e-9
+    }
+  ],
+  "models": [
+    {
+      "name": "BS05-OP",
+      "url": "https://raw.githubusercontent.com/michelelucente/PEANUTS/1783f9f976c2f445ccf686c25ba003baeee8f357/Data/bs2005opflux.dat",
+      "blob": "9435d546fc7079b1d82e6922ccbf0405c5a609dd",
+      "sha256": "ed89a19169f4ac65bfcf054cb9bbfd90332ed95b3dcc85f7d850c2dc38db535b",
+      "rows": 1219,
+      "norm": 0.9999950599196824,
+      "coverage": [
+        {
+          "radius_m": 1,
+          "f": 4.896852850511905e-15,
+          "disk": 1.7476857828188581e-15
+        },
+        {
+          "radius_m": 1000,
+          "f": 4.89685631444845e-9,
+          "disk": 1.7476857828188578e-9
+        },
+        {
+          "radius_m": 100000,
+          "f": 0.00004997569503786994,
+          "disk": 0.000017476857828188576
+        },
+        {
+          "radius_m": 10000000,
+          "f": 0.37406573185809205,
+          "disk": 0.1747685782818858
+        }
+      ]
+    },
+    {
+      "name": "B16-GS98",
+      "url": "https://raw.githubusercontent.com/michelelucente/PEANUTS/1783f9f976c2f445ccf686c25ba003baeee8f357/Data/nudistr_b16_gs98.dat",
+      "blob": "f73c47cf6f2d77086634a5c180b50039e10805e7",
+      "sha256": "3c5c6afb19fd8c2455c462bfeac757959c3b3c7d03575b411648eda57acf2378",
+      "rows": 1000,
+      "norm": 0.9999592626073704,
+      "coverage": [
+        {
+          "radius_m": 1,
+          "f": 4.8217537359333195e-15,
+          "disk": 1.7476857828188581e-15
+        },
+        {
+          "radius_m": 1000,
+          "f": 4.821755840653073e-9,
+          "disk": 1.7476857828188578e-9
+        },
+        {
+          "radius_m": 100000,
+          "f": 0.00004853238154014342,
+          "disk": 0.000017476857828188576
+        },
+        {
+          "radius_m": 10000000,
+          "f": 0.3719056800333509,
+          "disk": 0.1747685782818858
+        }
+      ]
+    },
+    {
+      "name": "B16-AGSS09",
+      "url": "https://raw.githubusercontent.com/michelelucente/PEANUTS/1783f9f976c2f445ccf686c25ba003baeee8f357/Data/nudistr_b16_agss09.dat",
+      "blob": "d9bd29f3374c63e8ea898733a55fb7aa566a2c96",
+      "sha256": "2fa6908bef59be96200d18faf26a246f039c8813ff65ffe03989730377d823f6",
+      "rows": 1000,
+      "norm": 1.000058338366742,
+      "coverage": [
+        {
+          "radius_m": 1,
+          "f": 4.860012392480359e-15,
+          "disk": 1.7476857828188581e-15
+        },
+        {
+          "radius_m": 1000,
+          "f": 4.860014538676838e-9,
+          "disk": 1.7476857828188578e-9
+        },
+        {
+          "radius_m": 100000,
+          "f": 0.00004892146788269422,
+          "disk": 0.000017476857828188576
+        },
+        {
+          "radius_m": 10000000,
+          "f": 0.3736367068479586,
+          "disk": 0.1747685782818858
+        }
+      ]
+    }
+  ],
+  "collective": {
+    "n_cm3": 2.0013845711889124,
+    "V_eV": 5.051533448725212e-37,
+    "ratio_vacuum": 1.1611791554136354e-26,
+    "phase_1au_constant": 3.8296772502536064e-19
+  },
+  "bragg": {
+    "wavelength_m": 1.4383317679814385e-12,
+    "theta_rad": 0.003595837169004622
+  },
+  "optics": {
+    "mirror_W": 7.770714269272098e-15,
+    "mirror_equiv_photons_s": 21515.274794520767,
+    "laser": [
+      {
+        "efficiency": 0.001,
+        "tx_W": 1.361,
+        "rx_W": 8.35208346437377e-12,
+        "photons_s": 65170310.69933043
+      },
+      {
+        "efficiency": 0.01,
+        "tx_W": 13.61,
+        "rx_W": 8.35208346437377e-11,
+        "photons_s": 651703106.9933044
+      },
+      {
+        "efficiency": 0.03,
+        "tx_W": 40.83,
+        "rx_W": 2.505625039312131e-10,
+        "photons_s": 1955109320.9799132
+      },
+      {
+        "efficiency": 0.1,
+        "tx_W": 136.1,
+        "rx_W": 8.35208346437377e-10,
+        "photons_s": 6517031069.9330435
+      }
+    ],
+    "dsoc_4w_rx_W": 2.454690217303092e-11
+  },
+  "derived_comparison": {
+    "mass_tagged_ceiling_with_models_bits_day": [
+      3.864911967976789e-17,
+      3.925109275672312e-17
+    ],
+    "coverage_gain": [
+      2.758937497835578,
+      2.8019088800678276
+    ]
+  }
+}

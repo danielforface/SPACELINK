@@ -1,0 +1,603 @@
+{
+  "code_revision": "3566068e0ff05734dc23bb88fb49660d03b7e070",
+  "ci_run": 45624762394,
+  "job": 139241898355,
+  "relay": [
+    {
+      "distance_m": 1000000,
+      "fraction": 0.01,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 4,
+      "passive_rx_W": 1.3453692080296569,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.5101520253035403,
+      "active_second_rx_W": 2.6907384160593137,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.01,
+      "relay_diameter_m": 1,
+      "first_rx_W": 4,
+      "passive_rx_W": 2,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.7583821931686349,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.01,
+      "relay_diameter_m": 5,
+      "first_rx_W": 4,
+      "passive_rx_W": 2,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.7583821931686349,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.1,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 0.5105605108978365,
+      "passive_rx_W": 0.2077849480348464,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.07879020229904882,
+      "active_second_rx_W": 3.25579348343177,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.1,
+      "relay_diameter_m": 1,
+      "first_rx_W": 4,
+      "passive_rx_W": 2,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.7583821931686349,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.1,
+      "relay_diameter_m": 5,
+      "first_rx_W": 4,
+      "passive_rx_W": 2,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.7583821931686349,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.5,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 0.02042242043591346,
+      "passive_rx_W": 0.01021121021795673,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.0038719999999999996,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.5,
+      "relay_diameter_m": 1,
+      "first_rx_W": 0.4219508354527574,
+      "passive_rx_W": 0.2109754177263787,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.07999999999999999,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.5,
+      "relay_diameter_m": 5,
+      "first_rx_W": 4,
+      "passive_rx_W": 2,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.7583821931686349,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.9,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 0.006303216183923907,
+      "passive_rx_W": 0.0031516080919619534,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.0011950617283950614,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.9,
+      "relay_diameter_m": 1,
+      "first_rx_W": 0.13023173933727078,
+      "passive_rx_W": 0.06511586966863539,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.024691358024691346,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.9,
+      "relay_diameter_m": 5,
+      "first_rx_W": 3.25579348343177,
+      "passive_rx_W": 1.627896741715885,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.6172839506172838,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.99,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 0.005209269573490834,
+      "passive_rx_W": 0.002604634786745417,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.0009876543209876543,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.99,
+      "relay_diameter_m": 1,
+      "first_rx_W": 0.10762953664237257,
+      "passive_rx_W": 0.053814768321186285,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.020406081012141614,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000,
+      "fraction": 0.99,
+      "relay_diameter_m": 5,
+      "first_rx_W": 2.6907384160593137,
+      "passive_rx_W": 1.3453692080296569,
+      "direct_rx_W": 2.6371927215797344,
+      "passive_ratio": 0.5101520253035403,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 0.0033356409519815205
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.01,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 0.00005105605108978365,
+      "passive_rx_W": 1.7172309754945982e-11,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.000006511586966863538,
+      "active_second_rx_W": 0.000002690738416059314,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.01,
+      "relay_diameter_m": 1,
+      "first_rx_W": 0.0010548770886318936,
+      "passive_rx_W": 7.330574138953104e-9,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.002779688446342266,
+      "active_second_rx_W": 0.000055593768926845334,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.01,
+      "relay_diameter_m": 5,
+      "first_rx_W": 0.026371927215797338,
+      "passive_rx_W": 0.00000458160883684569,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 1.7373052789639163,
+      "active_second_rx_W": 0.0013898442231711334,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.1,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 5.105605108978364e-7,
+      "passive_rx_W": 2.0778494803484636e-13,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 7.87902022990488e-8,
+      "active_second_rx_W": 0.0000032557934834317695,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.1,
+      "relay_diameter_m": 1,
+      "first_rx_W": 0.000010548770886318934,
+      "passive_rx_W": 8.869994708133254e-11,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.00003363423020074141,
+      "active_second_rx_W": 0.00006726846040148284,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.1,
+      "relay_diameter_m": 5,
+      "first_rx_W": 0.0002637192721579734,
+      "passive_rx_W": 5.543746692583285e-8,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.02102139387546339,
+      "active_second_rx_W": 0.0016817115100370714,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.5,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 2.0422420435913467e-8,
+      "passive_rx_W": 2.692892926531611e-14,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 1.0211210217956733e-8,
+      "active_second_rx_W": 0.000010548770886318938,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.5,
+      "relay_diameter_m": 1,
+      "first_rx_W": 4.2195083545275743e-7,
+      "passive_rx_W": 1.1495513141740702e-11,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.000004358996234016089,
+      "active_second_rx_W": 0.00021794981170080447,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.5,
+      "relay_diameter_m": 5,
+      "first_rx_W": 0.000010548770886318938,
+      "passive_rx_W": 7.1846957135879405e-9,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.002724372646260056,
+      "active_second_rx_W": 0.005448745292520112,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.9,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 6.303216183923907e-9,
+      "passive_rx_W": 2.077849480348464e-13,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 7.879020229904882e-8,
+      "active_second_rx_W": 0.0002637192721579734,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.9,
+      "relay_diameter_m": 1,
+      "first_rx_W": 1.302317393372708e-7,
+      "passive_rx_W": 8.869994708133259e-11,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.00003363423020074143,
+      "active_second_rx_W": 0.005448745292520114,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.9,
+      "relay_diameter_m": 5,
+      "first_rx_W": 0.0000032557934834317695,
+      "passive_rx_W": 5.543746692583286e-8,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.02102139387546339,
+      "active_second_rx_W": 0.13621863231300282,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.99,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 5.209269573490832e-9,
+      "passive_rx_W": 1.717230975494595e-11,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.0000065115869668635255,
+      "active_second_rx_W": 0.026371927215797286,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.99,
+      "relay_diameter_m": 1,
+      "first_rx_W": 1.0762953664237256e-7,
+      "passive_rx_W": 7.330574138953089e-9,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.0027796884463422602,
+      "active_second_rx_W": 0.5448745292520101,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 1000000000,
+      "fraction": 0.99,
+      "relay_diameter_m": 5,
+      "first_rx_W": 0.000002690738416059314,
+      "passive_rx_W": 0.000001345369208029657,
+      "direct_rx_W": 0.0000026371927215797344,
+      "passive_ratio": 0.5101520253035403,
+      "active_second_rx_W": 4,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 3.3356409519815204
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.01,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 1.0085145894278247e-9,
+      "passive_rx_W": 6.700367775135146e-21,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 1.2862394008619332e-10,
+      "active_second_rx_W": 5.315038846536916e-11,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.01,
+      "relay_diameter_m": 1,
+      "first_rx_W": 2.0837078293963322e-8,
+      "passive_rx_W": 2.860275841444892e-18,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 5.490742610058796e-8,
+      "active_second_rx_W": 1.0981485220117595e-9,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.01,
+      "relay_diameter_m": 5,
+      "first_rx_W": 5.209269573490832e-7,
+      "passive_rx_W": 1.7876724009030585e-15,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 0.00003431714131286749,
+      "active_second_rx_W": 2.7453713050293994e-8,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.1,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 1.0085145894278248e-11,
+      "passive_rx_W": 8.107445007913527e-23,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 1.5563496750429394e-12,
+      "active_second_rx_W": 6.431197004309667e-11,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.1,
+      "relay_diameter_m": 1,
+      "first_rx_W": 2.0837078293963326e-10,
+      "passive_rx_W": 3.46093376814832e-20,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 6.643798558171145e-10,
+      "active_second_rx_W": 1.328759711634229e-9,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.1,
+      "relay_diameter_m": 5,
+      "first_rx_W": 5.209269573490832e-9,
+      "passive_rx_W": 2.163083605092701e-17,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 4.1523740988569675e-7,
+      "active_second_rx_W": 3.3218992790855736e-8,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.5,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 4.0340583577113e-13,
+      "passive_rx_W": 1.0507248730255934e-23,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 2.01702917885565e-13,
+      "active_second_rx_W": 2.0837078293963326e-10,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.5,
+      "relay_diameter_m": 1,
+      "first_rx_W": 8.33483131758533e-12,
+      "passive_rx_W": 4.485370163520222e-21,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 8.610362931389802e-11,
+      "active_second_rx_W": 4.305181465694901e-9,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.5,
+      "relay_diameter_m": 5,
+      "first_rx_W": 2.0837078293963326e-10,
+      "passive_rx_W": 2.8033563522001395e-18,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 5.381476832118628e-8,
+      "active_second_rx_W": 1.0762953664237256e-7,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.9,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 1.2450797400343518e-13,
+      "passive_rx_W": 8.10744500791353e-23,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 1.55634967504294e-12,
+      "active_second_rx_W": 5.209269573490832e-9,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.9,
+      "relay_diameter_m": 1,
+      "first_rx_W": 2.572478801723867e-12,
+      "passive_rx_W": 3.460933768148321e-20,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 6.643798558171147e-10,
+      "active_second_rx_W": 1.076295366423726e-7,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.9,
+      "relay_diameter_m": 5,
+      "first_rx_W": 6.431197004309667e-11,
+      "passive_rx_W": 2.163083605092701e-17,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 4.1523740988569675e-7,
+      "active_second_rx_W": 0.000002690738416059315,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.99,
+      "relay_diameter_m": 0.22,
+      "first_rx_W": 1.0289915206895472e-13,
+      "passive_rx_W": 6.70036777513514e-21,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 1.2862394008619322e-10,
+      "active_second_rx_W": 5.209269573490824e-7,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.99,
+      "relay_diameter_m": 1,
+      "first_rx_W": 2.1260155386147665e-12,
+      "passive_rx_W": 2.8602758414448886e-18,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 5.4907426100587896e-8,
+      "active_second_rx_W": 0.000010762953664237238,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    },
+    {
+      "distance_m": 225000000000,
+      "fraction": 0.99,
+      "relay_diameter_m": 5,
+      "first_rx_W": 5.315038846536916e-11,
+      "passive_rx_W": 1.787672400903055e-15,
+      "direct_rx_W": 5.2092695734908314e-11,
+      "passive_ratio": 0.000034317141312867424,
+      "active_second_rx_W": 0.00026907384160593093,
+      "active_local_output_W": 4,
+      "one_way_latency_s": 750.5192141958421
+    }
+  ],
+  "radio": [
+    {
+      "distance_m": 1000000,
+      "transmitter_W": [
+        7e-13,
+        1,
+        122.49
+      ],
+      "rx_W": [
+        1.1989541820452118e-21,
+        1.7127916886360167e-9,
+        2.097998539410257e-7
+      ],
+      "awgn_bits_s": [
+        1.2528348951683246,
+        1359883177.5569313,
+        2053523659.9915028
+      ]
+    },
+    {
+      "distance_m": 1000000000,
+      "transmitter_W": [
+        7e-13,
+        1,
+        122.49
+      ],
+      "rx_W": [
+        1.1989541820452116e-27,
+        1.7127916886360166e-15,
+        2.0979985394102566e-13
+      ],
+      "awgn_bits_s": [
+        0.0000012528349006081217,
+        1778753.475314387,
+        133317991.84805799
+      ]
+    },
+    {
+      "distance_m": 225000000000,
+      "transmitter_W": [
+        7e-13,
+        1,
+        122.49
+      ],
+      "rx_W": [
+        2.368304557126344e-32,
+        3.3832922244662055e-20,
+        4.1441946457486546e-18
+      ],
+      "awgn_bits_s": [
+        2.47473560613951e-11,
+        35.3533614703074,
+        4330.368786631044
+      ]
+    }
+  ]
+}

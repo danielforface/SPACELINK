@@ -1,0 +1,211 @@
+{
+  "code_revision": "cd22391f43df0e924926aff1885a143efd6c225e",
+  "ci_run": 45618327889,
+  "job": 139219468035,
+  "e012": "SIMULATED/DERIVED",
+  "coarse": {
+    "coverage": 4.89685631444845e-9,
+    "max_reduction_error": 0.00010847840062214794,
+    "conditional_p_min": [
+      0.6032177606337693,
+      0.373725948137242,
+      0.02221788341579754
+    ],
+    "conditional_p_max": [
+      0.604056168446961,
+      0.3745620323854032,
+      0.022220206980828192
+    ],
+    "rows": [
+      {
+        "length_m": 0,
+        "threshold_MeV": 0,
+        "conditional_relative": -1.010766412858197e-33,
+        "full_relative": -4.9221051736649644e-42,
+        "frozen_relative": -4.9212806437907216e-42
+      },
+      {
+        "length_m": 0,
+        "threshold_MeV": 0.25,
+        "conditional_relative": -1.0089595037255347e-33,
+        "full_relative": -4.913356420056746e-42,
+        "frozen_relative": -4.9125314599931764e-42
+      },
+      {
+        "length_m": 0,
+        "threshold_MeV": 0.5,
+        "conditional_relative": -9.968964872625307e-34,
+        "full_relative": -4.8549399705380005e-42,
+        "frozen_relative": -4.854117974092729e-42
+      },
+      {
+        "length_m": 1,
+        "threshold_MeV": 0,
+        "conditional_relative": -2.7256219642242043e-13,
+        "full_relative": -1.3272896488147312e-21,
+        "frozen_relative": -1.3277703224400486e-21
+      },
+      {
+        "length_m": 1,
+        "threshold_MeV": 0.25,
+        "conditional_relative": -2.7205855235869085e-13,
+        "full_relative": -1.324850630701372e-21,
+        "frozen_relative": -1.3253317500299612e-21
+      },
+      {
+        "length_m": 1,
+        "threshold_MeV": 0.5,
+        "conditional_relative": -2.6874670984310437e-13,
+        "full_relative": -1.3088110553490821e-21,
+        "frozen_relative": -1.3092911484129855e-21
+      },
+      {
+        "length_m": 1000,
+        "threshold_MeV": 0,
+        "conditional_relative": -2.011084401589514e-7,
+        "full_relative": -9.793329904729808e-16,
+        "frozen_relative": -9.797885509040931e-16
+      },
+      {
+        "length_m": 1000,
+        "threshold_MeV": 0.25,
+        "conditional_relative": -2.007367484561299e-7,
+        "full_relative": -9.77532981379737e-16,
+        "frozen_relative": -9.779889642294473e-16
+      },
+      {
+        "length_m": 1000,
+        "threshold_MeV": 0.5,
+        "conditional_relative": -1.9829283371782383e-7,
+        "full_relative": -9.656968567834698e-16,
+        "frozen_relative": -9.661518669918067e-16
+      }
+    ]
+  },
+  "refined": {
+    "coverage": 4.89685631444845e-9,
+    "max_reduction_error": 0.00010847840062214794,
+    "conditional_p_min": [
+      0.6032177606337693,
+      0.373725948137242,
+      0.02221788341579754
+    ],
+    "conditional_p_max": [
+      0.604056168446961,
+      0.3745620323854032,
+      0.022220206980828192
+    ],
+    "rows": [
+      {
+        "length_m": 0,
+        "threshold_MeV": 0,
+        "conditional_relative": -1.1288160911742803e-33,
+        "full_relative": -5.496968886057908e-42,
+        "frozen_relative": -5.496201764638279e-42
+      },
+      {
+        "length_m": 0,
+        "threshold_MeV": 0.25,
+        "conditional_relative": -1.1266791665740665e-33,
+        "full_relative": -5.486618933675792e-42,
+        "frozen_relative": -5.485851049809293e-42
+      },
+      {
+        "length_m": 0,
+        "threshold_MeV": 0.5,
+        "conditional_relative": -1.112779379164433e-33,
+        "full_relative": -5.419295940104143e-42,
+        "frozen_relative": -5.41852950977586e-42
+      },
+      {
+        "length_m": 1,
+        "threshold_MeV": 0,
+        "conditional_relative": -2.725621965839164e-13,
+        "full_relative": -1.3272896496175718e-21,
+        "frozen_relative": -1.3277703220131525e-21
+      },
+      {
+        "length_m": 1,
+        "threshold_MeV": 0.25,
+        "conditional_relative": -2.720585523170486e-13,
+        "full_relative": -1.3248506305037972e-21,
+        "frozen_relative": -1.32533174957775e-21
+      },
+      {
+        "length_m": 1,
+        "threshold_MeV": 0.5,
+        "conditional_relative": -2.687467093159661e-13,
+        "full_relative": -1.3088110527407175e-21,
+        "frozen_relative": -1.3092911490645174e-21
+      },
+      {
+        "length_m": 1000,
+        "threshold_MeV": 0,
+        "conditional_relative": -2.0110844038500285e-7,
+        "full_relative": -9.793329915858845e-16,
+        "frozen_relative": -9.797885508486914e-16
+      },
+      {
+        "length_m": 1000,
+        "threshold_MeV": 0.25,
+        "conditional_relative": -2.0073674847282977e-7,
+        "full_relative": -9.775329814649062e-16,
+        "frozen_relative": -9.77988964070479e-16
+      },
+      {
+        "length_m": 1000,
+        "threshold_MeV": 0.5,
+        "conditional_relative": -1.9829283316183416e-7,
+        "full_relative": -9.656968540453908e-16,
+        "frozen_relative": -9.66151867340564e-16
+      }
+    ]
+  },
+  "diffraction": [
+    {
+      "normal_length_m": 0.001,
+      "kappa_per_m": 0.0008321029433087907,
+      "theta_rad": 0.0035958371688868548,
+      "kappa_L": 8.321029433087908e-7,
+      "resonant_scalar": 6.923953082628328e-13,
+      "first_zero_angle_rad": 7.191705334158164e-10,
+      "weak_born_average_bound": 2.4897515158911003e-19
+    },
+    {
+      "normal_length_m": 0.01,
+      "kappa_per_m": 0.0008321029433087907,
+      "theta_rad": 0.0035958371688868548,
+      "kappa_L": 0.000008321029433087907,
+      "resonant_scalar": 6.923953082311918e-11,
+      "first_zero_angle_rad": 7.191705334158163e-11,
+      "weak_born_average_bound": 2.4897515158911005e-18
+    },
+    {
+      "normal_length_m": 0.1,
+      "kappa_per_m": 0.0008321029433087907,
+      "theta_rad": 0.0035958371688868548,
+      "kappa_L": 0.00008321029433087907,
+      "resonant_scalar": 6.9239530506707736e-9,
+      "first_zero_angle_rad": 7.191705334158163e-12,
+      "weak_born_average_bound": 2.4897515158911003e-17
+    },
+    {
+      "normal_length_m": 1,
+      "kappa_per_m": 0.0008321029433087907,
+      "theta_rad": 0.0035958371688868548,
+      "kappa_L": 0.0008321029433087907,
+      "resonant_scalar": 6.923949886557694e-7,
+      "first_zero_angle_rad": 7.191705334158163e-13,
+      "weak_born_average_bound": 2.4897515158911004e-16
+    },
+    {
+      "normal_length_m": 10,
+      "kappa_per_m": 0.0008321029433087907,
+      "theta_rad": 0.0035958371688868548,
+      "kappa_L": 0.008321029433087906,
+      "resonant_scalar": 0.00006923633487662503,
+      "first_zero_angle_rad": 7.191705334158162e-14,
+      "weak_born_average_bound": 2.4897515158911004e-15
+    }
+  ]
+}
