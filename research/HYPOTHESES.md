@@ -21,3 +21,33 @@ All OPEN/UNVERIFIED. No novelty claims. Each requires causal sender control, rem
 - H007: E018 periodic standard matter alternative confirms conditional 3-state echo; peak density no longer necessary, column still severe. No feasible relay or link established.
 - H011: sender-controlled group delay switching -> arrival-time edge statistics, not flavor. E018 sparse detected-rate upper TV tiny for Be7/Mars toy. Falsifier: distinguishability under real delay and detector rates; seek different observable before pursuing engineering.
 - H012: change transmitter placement relative to finite natural source and receiver -> geometrical controlled fraction. E018 shows receiver-near full coverage but no remote Earth sender without separate causal channel. Need actual source and endpoint geometry with genuine sender control.
+
+## SL-P011 additions (HYPOTHESIS, no novelty claim)
+- H013 natural Earth preparation -> controlled local phase-to-population conversion -> persistent remote flavor signal. E019 conditional positive, absolute link tiny; full wave-packet and actual geometry needed.
+- H014 fixed positive mixed-state spectrum, rank-one standard matter differential control: receiver-independent per-particle Holevo bound from transition speed and relative entropy. Model-specific derived constraint; change assumption for new candidates.
+- H015 time-dependent scalar phase -> energy sidebands; E019 toy TV bound extremely small, no full neutrino Hamiltonian or apparatus.
+
+## SL-P012 additions
+- H016 prepared material accumulates persistent marks and time-indexed retrieval; E020 real reference rates and lifetime screen, no viable link.
+- H017 marked categories and exclusive-event encoding; E020 toy information scaling positive only conditional on physical dark channel.
+- H018 near-threshold capture response controlled by target state; E020 ideal Li threshold screen, actual modulation unverified.
+- H019 natural inverse-decay narrow resonance -> retained daughter; E020 isolated line area screen, no actual resonance or useful coupling found.
+- H020 full-support flavor states under unitary controls and common measurement cannot yield an exclusive mark; derived weak relative probability bound, scope only.
+
+## SL-P013 additions
+- H021 isotope memory age: known initial population gives statistical age; unknown history nonidentifiable (E021).
+- H022 decay timestamp readout: delayed Poisson filtering; live decay plus terminal inventory recovers total count, not exact capture times.
+- H023 multiple calibrated lifetimes: conditional burst age/amplitude inference; arbitrary history ill-conditioned/nonidentifiable.
+- H024 prompt capture timestamp plus delayed daughter decay tag; actual addressable Ga readout unverified.
+
+## SL-P014 additions
+- H025 transmutation recoil creates persistent structural mark surviving isotope reset; E022 kinematic overlap only, actual defect survival and background unknown.
+- H026 three-timescale tags (known excited Ge prompt/delayed coincidence, long EC, hypothesized scar); branch and detector unverified.
+- H027 natural capture and secondary emission as store-forward carrier, outside H014 unitary model; isotropic link screen negative.
+- H028 electron-occupancy decay gate; known effects in other ions, no Ge switch, conservation at fixed birth rate.
+
+## SL-P015 additions
+- H029 GaAs transmutation donor-state electrical record; actual neutron transmutation precedents, E023 solar-rate screen, neutrino-specific detection unverified.
+- H030 persistent local latch/event-addressed readout; independent cell coverage and background constraints quantified, no new information from gain.
+- H031 final electron occupation gates continuum capture; ideal Li7 line screen, actual solid state gate and useful absorption unverified.
+- H032 joint outgoing product momentum reconstructs direction only with initial momentum knowledge; free thermal/harmonic toy severely limits patch tagging, collective alternative open.

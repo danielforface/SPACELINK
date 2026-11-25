@@ -1,0 +1,341 @@
+{
+  "revision": "e3c52d9c82e950cb886cad66965baf711f5bcb3f",
+  "ci_run": 45697341217,
+  "job": 139498062553,
+  "e022": "DERIVED/SIMULATED",
+  "recoil": [
+    {
+      "E_MeV": 0.3,
+      "leading_eV": [
+        0.006224541012096124,
+        2.467569751499328
+      ],
+      "exact_eV": [
+        0.006224546766908645,
+        2.4675242967509003
+      ],
+      "endpoint_error_eV": 0.00004545474842743147,
+      "thresholds": [
+        {
+          "eV": 9,
+          "isotropic": 0,
+          "GT_toy": 0
+        },
+        {
+          "eV": 13,
+          "isotropic": 0,
+          "GT_toy": 0
+        },
+        {
+          "eV": 25,
+          "isotropic": 0,
+          "GT_toy": 0
+        },
+        {
+          "eV": 39,
+          "isotropic": 0,
+          "GT_toy": 0
+        }
+      ]
+    },
+    {
+      "E_MeV": 0.42,
+      "leading_eV": [
+        0.02396232060854105,
+        6.073473158247472
+      ],
+      "exact_eV": [
+        0.023962290651713403,
+        6.073352442015345
+      ],
+      "endpoint_error_eV": 0.00012071623212683846,
+      "thresholds": [
+        {
+          "eV": 9,
+          "isotropic": 0,
+          "GT_toy": 0
+        },
+        {
+          "eV": 13,
+          "isotropic": 0,
+          "GT_toy": 0
+        },
+        {
+          "eV": 25,
+          "isotropic": 0,
+          "GT_toy": 0
+        },
+        {
+          "eV": 39,
+          "isotropic": 0,
+          "GT_toy": 0
+        }
+      ]
+    },
+    {
+      "E_MeV": 0.862,
+      "leading_eV": [
+        0.1879691220221274,
+        26.76845033760697
+      ],
+      "exact_eV": [
+        0.1879686206684994,
+        26.76759847419774
+      ],
+      "endpoint_error_eV": 0.0008518634092311572,
+      "thresholds": [
+        {
+          "eV": 9,
+          "isotropic": 0.6684773760675504,
+          "GT_toy": 0.7345202663747119
+        },
+        {
+          "eV": 13,
+          "isotropic": 0.5179910109954728,
+          "GT_toy": 0.5923962553947063
+        },
+        {
+          "eV": 25,
+          "isotropic": 0.06653191577924017,
+          "GT_toy": 0.08503975378958363
+        },
+        {
+          "eV": 39,
+          "isotropic": 0,
+          "GT_toy": 0
+        }
+      ]
+    },
+    {
+      "E_MeV": 1.442,
+      "leading_eV": [
+        0.3052015473872414,
+        71.9482002007354
+      ],
+      "exact_eV": [
+        0.30520057614502605,
+        71.94468575577595
+      ],
+      "endpoint_error_eV": 0.0035144449594497473,
+      "thresholds": [
+        {
+          "eV": 9,
+          "isotropic": 0.8786371506491037,
+          "GT_toy": 0.9125779627412152
+        },
+        {
+          "eV": 13,
+          "isotropic": 0.8228047584379066,
+          "GT_toy": 0.8692109312110227
+        },
+        {
+          "eV": 25,
+          "isotropic": 0.6553075818043153,
+          "GT_toy": 0.7272034324393479
+        },
+        {
+          "eV": 39,
+          "isotropic": 0.4598942090651253,
+          "GT_toy": 0.538955459279063
+        }
+      ]
+    },
+    {
+      "E_MeV": 5,
+      "leading_eV": [
+        0.4868447977940235,
+        794.8737507927486
+      ],
+      "exact_eV": [
+        0.4868429197557589,
+        794.7499509466383
+      ],
+      "endpoint_error_eV": 0.12379984611038708,
+      "thresholds": [
+        {
+          "eV": 9,
+          "isotropic": 0.989283364141629,
+          "GT_toy": 0.9928006958842842
+        },
+        {
+          "eV": 13,
+          "isotropic": 0.9842480344177709,
+          "GT_toy": 0.989391708725973
+        },
+        {
+          "eV": 25,
+          "isotropic": 0.969142045246197,
+          "GT_toy": 0.9790638054089141
+        },
+        {
+          "eV": 39,
+          "isotropic": 0.9515183912126939,
+          "GT_toy": 0.9668232159633156
+        }
+      ]
+    },
+    {
+      "E_MeV": 10,
+      "leading_eV": [
+        0.5343078451645558,
+        3104.9958133943155
+      ],
+      "exact_eV": [
+        0.5343056947992864,
+        3104.0434745115417
+      ],
+      "endpoint_error_eV": 0.9523388827738017,
+      "thresholds": [
+        {
+          "eV": 9,
+          "isotropic": 0.9972730561678078,
+          "GT_toy": 0.9981784377615653
+        },
+        {
+          "eV": 13,
+          "isotropic": 0.9959845879446232,
+          "GT_toy": 0.9973160356679968
+        },
+        {
+          "eV": 25,
+          "isotropic": 0.9921191832750693,
+          "GT_toy": 0.9947221969973297
+        },
+        {
+          "eV": 39,
+          "isotropic": 0.987609544493923,
+          "GT_toy": 0.991683477975583
+        }
+      ]
+    }
+  ],
+  "EC_recoil_K_eV": 0.3729311523396784,
+  "EC_recoil_max_eV": 0.40847406748194154,
+  "K_gap_keV": 10.34300000000002,
+  "tag": [
+    {
+      "kind": "fast",
+      "accept": 0.9,
+      "window_s": 2.6249470060132126e-7,
+      "background_s": 0.000011574074074074073,
+      "accidental": 3.0381331088069737e-12
+    },
+    {
+      "kind": "fast",
+      "accept": 0.9,
+      "window_s": 2.6249470060132126e-7,
+      "background_s": 1,
+      "accidental": 2.6249466614959036e-7
+    },
+    {
+      "kind": "fast",
+      "accept": 0.99,
+      "window_s": 5.249894012026423e-7,
+      "background_s": 0.000011574074074074073,
+      "accidental": 6.076266217604714e-12
+    },
+    {
+      "kind": "fast",
+      "accept": 0.99,
+      "window_s": 5.249894012026423e-7,
+      "background_s": 1,
+      "accidental": 5.249892633957307e-7
+    },
+    {
+      "kind": "slow",
+      "accept": 0.9,
+      "window_s": 3280576.7339622052,
+      "background_s": 0.000011574074074074073,
+      "accidental": 1
+    },
+    {
+      "kind": "slow",
+      "accept": 0.9,
+      "window_s": 3280576.7339622052,
+      "background_s": 1,
+      "accidental": 1
+    },
+    {
+      "kind": "slow",
+      "accept": 0.99,
+      "window_s": 6561153.467924408,
+      "background_s": 0.000011574074074074073,
+      "accidental": 1
+    },
+    {
+      "kind": "slow",
+      "accept": 0.99,
+      "window_s": 6561153.467924408,
+      "background_s": 1,
+      "accidental": 1
+    }
+  ],
+  "branches": [
+    {
+      "f": 0.01,
+      "expected_day": 0.008382666805346743
+    },
+    {
+      "f": 0.1,
+      "expected_day": 0.08382666805346745
+    },
+    {
+      "f": 1,
+      "expected_day": 0.8382666805346743
+    }
+  ],
+  "harvest": [
+    {
+      "days": 28,
+      "area_m2": 1,
+      "stored_ideal": 54.51426606666605,
+      "stored_normal": 26.228207959415474,
+      "geometry": 1.2950207821597006e-23,
+      "arrivals_ideal": 7.05971074805159e-22,
+      "arrivals_normal": 3.3966074386249513e-22,
+      "MI_ideal": 3.529855374025795e-22
+    },
+    {
+      "days": 28,
+      "area_m2": 100,
+      "stored_ideal": 54.51426606666605,
+      "stored_normal": 26.228207959415474,
+      "geometry": 1.2950207821597006e-21,
+      "arrivals_ideal": 7.059710748051589e-20,
+      "arrivals_normal": 3.3966074386249514e-20,
+      "MI_ideal": 3.5298553740257946e-20
+    },
+    {
+      "days": 365,
+      "area_m2": 1,
+      "stored_ideal": 710.6323969404682,
+      "stored_normal": 32.1050172349253,
+      "geometry": 1.2950207821597006e-23,
+      "arrivals_ideal": 9.20283722513868e-21,
+      "arrivals_normal": 4.1576664530823626e-22,
+      "MI_ideal": 4.60141861256934e-21
+    },
+    {
+      "days": 365,
+      "area_m2": 100,
+      "stored_ideal": 710.6323969404682,
+      "stored_normal": 32.1050172349253,
+      "geometry": 1.2950207821597006e-21,
+      "arrivals_ideal": 9.20283722513868e-19,
+      "arrivals_normal": 4.157666453082363e-20,
+      "MI_ideal": 4.60141861256934e-19
+    }
+  ],
+  "gate": {
+    "off_days": 28,
+    "initial_inventory": 32.10501724275291,
+    "inventory_after_off": 86.61928330941896,
+    "missed_emissions": 54.51426606666605,
+    "excess_after_resume": 54.51426606666605,
+    "initial_rate_after_resume": 5.252835696242071,
+    "release90_days": 37.96963812456256,
+    "net_integrated_difference": 0,
+    "one_percent_initial": 1.966407454547597,
+    "one_percent_final": 1.946938073809502
+  }
+}

@@ -46,3 +46,18 @@ S067 DOI 10.1140/epjc/s10052-016-4187-5 catch-up full relevant sections; S068 DO
 
 ## SL-P010 addendum
 S075 arXiv:hep-ph/9805272 exact periodic profile abstract; S076 arXiv:1202.0776 stimulated sinusoidal profiles abstract; S077 DOI 10.1103/PhysRevC.90.065502 three-state resonance abstract; S078 DOI 10.1103/PhysRevD.101.123018 supernova timing abstract; S079 DOI 10.1088/1674-1137/43/9/095102 relevant section TOF inspected. S067 relevant coherence sections rechecked; S012 current preprint abstract rechecked. See literature/SL-P010.md.
+
+## SL-P011 addendum
+S080 arXiv:hep-ph/9702343 v2 abstract; S081 DOI 10.1103/PhysRevD.101.123031 indexed text; S082 DOI 10.1088/1126-6708/1999/08/018 indexed abstract; S083 TUM LNT phase modulation indexed text; S084 DOI 10.12942/lrr-2010-1 indexed text; S085 PDG magnetic moment formula indexed text. S024 Earth_Density.csv pinned complete file and hash. See research/literature/SL-P011.md; no raw redistribution or exhaustive novelty review.
+
+## SL-P012 addendum
+S086 SAGE DOI 10.1103/PhysRevC.80.015807 abstract, PDG SNU indexed; S087 CIAAW gallium abundance/mass; S088 GALLEX reanalysis indexed and updated Ga DOI 10.1016/j.physletb.2025.139259 abstract; S089 LiCl DOI 10.1140/epjc/s10052-023-11950-9 indexed; S090 paleo DOI 10.1103/PhysRevD.103.123016 abstract; S091 DOI 10.1038/s42005-021-00763-5 and 10.1103/PhysRevD.102.072009 indexed; S092 DOI 10.1103/PhysRevC.28.2162 and 10.1088/1126-6708/2009/06/049 abstracts; S093 ENSDF Be7 EC indexed; S094 DOI 10.3847/1538-4365/ae2bdc indexed; S095 solar review DOI 10.1146/annurev-nucl-011921-061243 indexed; S096 DOI 10.1103/5pvf-mcr1 abstract; S097 DOI 10.1103/PhysRevC.108.L011301 abstract, 7Be EC environment; S098 DOI 10.1103/PhysRevLett.133.232701 abstract and 10.1038/s41586-024-08130-4 indexed, Tl205 bound beta and Pb205 lifetime. Access scope in literature/SL-P012.md.
+
+## SL-P013 addendum
+S099 arXiv:2401.15286 abstract and LBNL 2024 measurement description; S100 DOI 10.1103/PhysRevC.108.L021602 abstract; S101 DOI 10.1007/s10967-022-08494-9 indexed text; S102 GALLEX reanalysis S0370269310000729 indexed text; S103 MPI research history indexed text; S104 S0969804314000505 indexed abstract (DOI unverified); S105 DOI 10.1088/0026-1394/52/3/S51 indexed text. See literature/SL-P013.md.
+
+## SL-P014 addendum
+S106 DOI 10.1103/PhysRevC.108.035502 abstract and indexed Q/K-line; S107 arXiv:2002.11971 abstract and S0927650520300918; S108 DOI 10.1140/epja/s10050-023-00978-w review relevant text; S109 JMR F4EB2E32DD912345A77C01F6E9BF257A abstract and DOI 10.1063/1.3153277, 10.1063/1.5123163 indexed; S110 DOI 10.1038/s41598-018-20155-0 indexed, opening failed; S111 DOI 10.1103/PhysRevD.107.096011 abstract; S112 DOI 10.1103/5pvf-mcr1 abstract; S113 arXiv:2501.03528 abstract and DOI 10.1103/pz8g-zz1b indexed; S114 DOI 10.1039/D0MA00017E indexed. Access details literature/SL-P014.md.
+
+## SL-P015 addendum
+S115 DOI 10.1007/BF02654021 university abstract opened; S116 DOI 10.1103/PhysRevB.25.5436 indexed abstract; S117 AIP J Appl Phys57 2186 indexed, opening500; S118 IUCr https://journals.iucr.org/s/issues/2006/02/00/gf0007/index.html relevant section/table2; S119 DOI 10.1038/s41598-018-31268-x indexed; S120 DOI 10.1103/PhysRevB.74.125310 indexed; S121 ScienceDirect shallow donor overview indexed; S122 DOI 10.1093/mnras/stz2911 indexed, opening500; S089 LiCl HTML sections1.1–1.2 inspected; S123 DOI 10.1103/PhysRevC.99.045502 abstract, erratum secondary indexed; S124 DOI 10.1038/s41598-020-72862-2 indexed. See literature/SL-P015.md.
