@@ -21,3 +21,8 @@ All OPEN/UNVERIFIED. No novelty claims. Each requires causal sender control, rem
 - H007: E018 periodic standard matter alternative confirms conditional 3-state echo; peak density no longer necessary, column still severe. No feasible relay or link established.
 - H011: sender-controlled group delay switching -> arrival-time edge statistics, not flavor. E018 sparse detected-rate upper TV tiny for Be7/Mars toy. Falsifier: distinguishability under real delay and detector rates; seek different observable before pursuing engineering.
 - H012: change transmitter placement relative to finite natural source and receiver -> geometrical controlled fraction. E018 shows receiver-near full coverage but no remote Earth sender without separate causal channel. Need actual source and endpoint geometry with genuine sender control.
+
+## SL-P011 additions (HYPOTHESIS, no novelty claim)
+- H013 natural Earth preparation -> controlled local phase-to-population conversion -> persistent remote flavor signal. E019 conditional positive, absolute link tiny; full wave-packet and actual geometry needed.
+- H014 fixed positive mixed-state spectrum, rank-one standard matter differential control: receiver-independent per-particle Holevo bound from transition speed and relative entropy. Model-specific derived constraint; change assumption for new candidates.
+- H015 time-dependent scalar phase -> energy sidebands; E019 toy TV bound extremely small, no full neutrino Hamiltonian or apparatus.

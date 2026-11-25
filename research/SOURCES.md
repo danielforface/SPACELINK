@@ -46,3 +46,6 @@ S067 DOI 10.1140/epjc/s10052-016-4187-5 catch-up full relevant sections; S068 DO
 
 ## SL-P010 addendum
 S075 arXiv:hep-ph/9805272 exact periodic profile abstract; S076 arXiv:1202.0776 stimulated sinusoidal profiles abstract; S077 DOI 10.1103/PhysRevC.90.065502 three-state resonance abstract; S078 DOI 10.1103/PhysRevD.101.123018 supernova timing abstract; S079 DOI 10.1088/1674-1137/43/9/095102 relevant section TOF inspected. S067 relevant coherence sections rechecked; S012 current preprint abstract rechecked. See literature/SL-P010.md.
+
+## SL-P011 addendum
+S080 arXiv:hep-ph/9702343 v2 abstract; S081 DOI 10.1103/PhysRevD.101.123031 indexed text; S082 DOI 10.1088/1126-6708/1999/08/018 indexed abstract; S083 TUM LNT phase modulation indexed text; S084 DOI 10.12942/lrr-2010-1 indexed text; S085 PDG magnetic moment formula indexed text. S024 Earth_Density.csv pinned complete file and hash. See research/literature/SL-P011.md; no raw redistribution or exhaustive novelty review.
