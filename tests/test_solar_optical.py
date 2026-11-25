@@ -20,16 +20,27 @@ class SolarOptical(unittest.TestCase):
             actual=abs(np.trapz(g*np.exp(-1j*K/E),E))
             self.assertLessEqual(actual,a.envelope(E,g,K)+1e-6)
         self.assertAlmostEqual(a.envelope(E,g,1e13)/a.envelope(E,g,2e13),2)
+    def test_inverse_energy_toy(self):
+        u=np.linspace(1/864000,1/860000,10001)
+        for K in (1e8,1e10):
+            exact=abs(np.sinc(K*(u[-1]-u[0])/(2*math.pi)))
+            num=abs(np.trapz(np.exp(-1j*K*u),u)/(u[-1]-u[0]))
+            self.assertAlmostEqual(exact,num,delta=1e-6)
     def test_airy(self):
         self.assertEqual(b.airy(0),1);self.assertLess(b.airy(3.83170597),1e-14)
         for x in (1,3,7):self.assertAlmostEqual(b.airy(x),b.airy(x,1024),places=10)
     def test_optics(self):
         s,g=b.budget("mirror",1,0,1e-7,1)
         s2,g2=b.budget("mirror",10,0,1e-7,1)
+        sfar,_=b.budget("mirror",1,0,1e-7,1,distance=2*b.D)
+        self.assertAlmostEqual(s/sfar,4)
+        s0,_=b.budget("solar_tem00",1,0,1e-7,1);sfar,_=b.budget("solar_tem00",1,0,1e-7,1,distance=2*b.D)
+        self.assertAlmostEqual(s0/sfar,4)
         self.assertAlmostEqual(s2/s,10);self.assertAlmostEqual((g2-100)/(g-100),10)
         _,g5=b.budget("mirror",1,0,1e-7,5);self.assertAlmostEqual((g5-100)/(g-100),25)
     def test_click(self):
         self.assertEqual(b.channel(0,100,1e-3)["bits_slot"],0)
+        self.assertGreater(b.mutual(.5,.1,.1+1e-10),0)
         for p in (.1,.5,.9):
             self.assertAlmostEqual(b.mutual(p,.01,.7),b.joint(p,.01,.7))
         self.assertLess(b.channel(1000,10000,1e-4)["bits_slot"],b.channel(1000,0,1e-4)["bits_slot"])

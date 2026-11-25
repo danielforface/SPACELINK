@@ -11,22 +11,32 @@ def airy(x,n=128):
     t=np.linspace(0,math.pi,n+1)
     j=float(np.trapz(np.cos(t-x*np.sin(t)),t)/math.pi)
     return (2*j/x)**2
-def budget(mode,band_nm,offset_urad,bg_fraction,fov_factor):
+def budget(mode,band_nm,offset_urad,bg_fraction,fov_factor,distance=D):
     band=band_nm*1e-9;A=math.pi*(DR/2)**2
     E=spectral();L=E/(math.pi*TH**2)
     fov=1.22*LAM/DR*fov_factor
     bg=L*bg_fraction*A*math.pi*fov**2*band
     if mode=="mirror":
-        P=E*band*(DR/(2*D*math.tan(TH)))**2
+        P=E*band*(DR/(2*distance*math.tan(TH)))**2
     else:
         eta={"solar_tem00":.0206,"solar_cw_optimistic":.0396,"pv_laser_assumed":.09}[mode]
-        P=1361*eta*(math.pi*DT*DR/(4*LAM*D))**2*airy(math.pi*DT*offset_urad*1e-6/LAM)
+        P=1361*eta*(math.pi*DT*DR/(4*LAM*distance))**2*airy(math.pi*DT*offset_urad*1e-6/LAM)
     factor=.5*.6*LAM/(H*C)
     return P*factor,bg*factor+100
 def h2(x):
     return -(x*math.log2(x)+(1-x)*math.log2(1-x)) if 0<x<1 else 0.
+def phi(x):
+    if abs(x)<1e-4:return x*x*(.5+x*(-1/6+x*(1/12-x/20)))
+    if x<=-1:return 1.
+    return (1+x)*math.log1p(x)-x
 def mutual(p,q0,q1):
-    return max(0.,h2((1-p)*q0+p*q1)-(1-p)*h2(q0)-p*h2(q1))
+    if p==0 or p==1 or q0==q1:return 0.
+    d=q1-q0
+    # Center relative to the mixture, avoid subtracting nearly equal entropies.
+    total=0.
+    for m,delta in (((1-p)*q0+p*q1,d),((1-p)*(1-q0)+p*(1-q1),-d)):
+        if m>0:total+=m*((1-p)*phi(-p*delta/m)+p*phi((1-p)*delta/m))
+    return total/math.log(2)
 def joint(p,q0,q1):
     o=(1-p)*q0+p*q1;v=0.
     for px,q in ((1-p,q0),(p,q1)):
@@ -49,5 +59,6 @@ def grid():
                         result.append(dict(mode=mode,band_nm=band,offset_urad=offset,bg_fraction=bg,fov_factor=fov,signal_s=s,background_s=b,**best))
     return result
 def main():
-    print(json.dumps(dict(evidence="SIMULATED illustrative click channel",spectral_W_m2_nm=spectral()*1e-9,rows=grid()),separators=(",",":")))
+    print(json.dumps(dict(optical_header="SIMULATED illustrative click channel",spectral_W_m2_nm=spectral()*1e-9)))
+    for row in grid():print(json.dumps(dict(optical_row=row),separators=(",",":")))
 if __name__=="__main__":main()
