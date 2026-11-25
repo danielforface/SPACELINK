@@ -50,3 +50,5 @@ jobs:
       - run: python experiments/SL-E020/records.py
 
       - run: python experiments/SL-E021/clocks.py
+
+      - run: python experiments/SL-E022/scars.py
