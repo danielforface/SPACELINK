@@ -15,7 +15,7 @@ class NewTests(unittest.TestCase):
         self.assertEqual(a.count_mi(1,1,.5)[0],0)
         self.assertAlmostEqual(a.count_mi(0,.4,.5)[0],a.e9.o7.mutual(.5,0,-math.expm1(-.4)))
     def test_reference(self):
-        for x,y in ((.01,.02),(1,3),(10,12),(0,10)):
+        for x,y in ((.01,.02),(1,3),(10,12),(0,10),(.001,.002)):
             self.assertAlmostEqual(a.count_mi(x,y,.25)[0],a.reference(x,y,.25),delta=1e-12)
     def test_mixture(self):
         den=np.array([-20.,2.]);w=np.array([.5,.5]);f=np.array([.5,.1])

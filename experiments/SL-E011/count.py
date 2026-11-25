@@ -25,9 +25,14 @@ def count_mi(mu0,mu1,p):
 def reference(mu0,mu1,p,n=300):
     a=math.exp(-mu0);b=math.exp(-mu1);z=0.
     for k in range(n):
-        m=(1-p)*a+p*b
-        if a:z+=(1-p)*a*math.log2(a/m)
-        if b:z+=p*b*math.log2(b/m)
+        # Normalize the two probabilities before mixing to avoid a
+        # subnormal mixture rounding to zero in the far tail.
+        scale=max(a,b)
+        if scale:
+            u,v=a/scale,b/scale
+            m=(1-p)*u+p*v
+            if u:z+=(1-p)*a*math.log2(u/m)
+            if v:z+=p*b*math.log2(v/m)
         a*=mu0/(k+1);b*=mu1/(k+1)
     return z
 def row(s,b,t,g,p):
