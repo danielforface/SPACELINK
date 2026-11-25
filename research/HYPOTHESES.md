@@ -45,3 +45,9 @@ All OPEN/UNVERIFIED. No novelty claims. Each requires causal sender control, rem
 - H026 three-timescale tags (known excited Ge prompt/delayed coincidence, long EC, hypothesized scar); branch and detector unverified.
 - H027 natural capture and secondary emission as store-forward carrier, outside H014 unitary model; isotropic link screen negative.
 - H028 electron-occupancy decay gate; known effects in other ions, no Ge switch, conservation at fixed birth rate.
+
+## SL-P015 additions
+- H029 GaAs transmutation donor-state electrical record; actual neutron transmutation precedents, E023 solar-rate screen, neutrino-specific detection unverified.
+- H030 persistent local latch/event-addressed readout; independent cell coverage and background constraints quantified, no new information from gain.
+- H031 final electron occupation gates continuum capture; ideal Li7 line screen, actual solid state gate and useful absorption unverified.
+- H032 joint outgoing product momentum reconstructs direction only with initial momentum knowledge; free thermal/harmonic toy severely limits patch tagging, collective alternative open.
