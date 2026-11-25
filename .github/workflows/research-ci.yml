@@ -42,3 +42,5 @@ jobs:
       - run: python experiments/SL-E016/relay.py
 
       - run: python experiments/SL-E017/inverse.py
+
+      - run: python experiments/SL-E018/echo.py
