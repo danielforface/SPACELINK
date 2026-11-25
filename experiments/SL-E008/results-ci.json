@@ -1,0 +1,133 @@
+{
+  "code_revision": "6eb31cd5aeca3f32481cb7048924a6b04d712f1b",
+  "ci_run": 45588052309,
+  "job": 139114648189,
+  "e008": "DERIVED/SIMULATED",
+  "rows": [
+    {
+      "material_m": 1,
+      "A_bound": 0.000003613487151222072,
+      "derivative_bound_per_eV": 3.0976113778953264e-14,
+      "sample_max": 3.1029804589317927e-7,
+      "sampled_derivative": 9.107145899447138e-16,
+      "entry_bounds": [
+        {
+          "pair": "21",
+          "bound": 1.7959788127802785e-10
+        },
+        {
+          "pair": "31",
+          "bound": 5.387936438340835e-12
+        },
+        {
+          "pair": "32",
+          "bound": 5.554573647774057e-12
+        }
+      ]
+    },
+    {
+      "material_m": 1000,
+      "A_bound": 0.003613487151222072,
+      "derivative_bound_per_eV": 3.097611377895326e-8,
+      "sample_max": 0.00030968316445783564,
+      "sampled_derivative": 2.1834801295347663e-10,
+      "entry_bounds": [
+        {
+          "pair": "21",
+          "bound": 1.8116557262466984e-7
+        },
+        {
+          "pair": "31",
+          "bound": 5.434967178740094e-9
+        },
+        {
+          "pair": "32",
+          "bound": 5.6030589471547365e-9
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "distance_m": 1000000,
+      "dm2": 0.000075,
+      "energy_full_width_eV": 3909.916657808967,
+      "position_one_rad_m": 4535.889522794667,
+      "packet_separation_m": 5.046807456893535e-11,
+      "packet_sigma_half_overlap_m": 2.1431817974979082e-11,
+      "gaussian_sigmaE_half_contrast_eV": 4603.598738809104
+    },
+    {
+      "distance_m": 1000000,
+      "dm2": 0.0025,
+      "energy_full_width_eV": 117.2981025164718,
+      "position_one_rad_m": 136.07668568384,
+      "packet_separation_m": 1.682269152297845e-9,
+      "packet_sigma_half_overlap_m": 7.143939324993027e-10,
+      "gaussian_sigmaE_half_contrast_eV": 138.10796216427312
+    },
+    {
+      "distance_m": 1000000,
+      "dm2": 0.002425,
+      "energy_full_width_eV": 120.92587884779888,
+      "position_one_rad_m": 140.2852429730309,
+      "packet_separation_m": 1.6318010777289098e-9,
+      "packet_sigma_half_overlap_m": 6.929621145243237e-10,
+      "gaussian_sigmaE_half_contrast_eV": 142.379342437395
+    },
+    {
+      "distance_m": 1000000000,
+      "dm2": 0.000075,
+      "energy_full_width_eV": 3.9099367686288917,
+      "position_one_rad_m": 4535.889522794667,
+      "packet_separation_m": 5.046807456893535e-8,
+      "packet_sigma_half_overlap_m": 2.143181797497908e-8,
+      "gaussian_sigmaE_half_contrast_eV": 4.603598738809104
+    },
+    {
+      "distance_m": 1000000000,
+      "dm2": 0.0025,
+      "energy_full_width_eV": 0.11729810305946954,
+      "position_one_rad_m": 136.07668568384,
+      "packet_separation_m": 0.000001682269152297845,
+      "packet_sigma_half_overlap_m": 7.143939324993027e-7,
+      "gaussian_sigmaE_half_contrast_eV": 0.13810796216427315
+    },
+    {
+      "distance_m": 1000000000,
+      "dm2": 0.002425,
+      "energy_full_width_eV": 0.12092587944275206,
+      "position_one_rad_m": 140.2852429730309,
+      "packet_separation_m": 0.0000016318010777289097,
+      "packet_sigma_half_overlap_m": 6.929621145243236e-7,
+      "gaussian_sigmaE_half_contrast_eV": 0.14237934243739497
+    },
+    {
+      "distance_m": 78389284246.8,
+      "dm2": 0.000075,
+      "energy_full_width_eV": 0.04987845987136451,
+      "position_one_rad_m": 4535.889522794667,
+      "packet_separation_m": 0.0000039561562427729716,
+      "packet_sigma_half_overlap_m": 0.0000016800248711663127,
+      "gaussian_sigmaE_half_contrast_eV": 0.058727398560180534
+    },
+    {
+      "distance_m": 78389284246.8,
+      "dm2": 0.0025,
+      "energy_full_width_eV": 0.0014963537961409361,
+      "position_one_rad_m": 136.07668568384,
+      "packet_separation_m": 0.00013187187475909907,
+      "packet_sigma_half_overlap_m": 0.000056000829038877105,
+      "gaussian_sigmaE_half_contrast_eV": 0.0017618219568054157
+    },
+    {
+      "distance_m": 78389284246.8,
+      "dm2": 0.002425,
+      "energy_full_width_eV": 0.0015426327795267382,
+      "position_one_rad_m": 140.2852429730309,
+      "packet_separation_m": 0.0001279157185163261,
+      "packet_sigma_half_overlap_m": 0.00005432080416771078,
+      "gaussian_sigmaE_half_contrast_eV": 0.0018163112956756863
+    }
+  ]
+}
