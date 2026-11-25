@@ -33,3 +33,9 @@ All OPEN/UNVERIFIED. No novelty claims. Each requires causal sender control, rem
 - H018 near-threshold capture response controlled by target state; E020 ideal Li threshold screen, actual modulation unverified.
 - H019 natural inverse-decay narrow resonance -> retained daughter; E020 isolated line area screen, no actual resonance or useful coupling found.
 - H020 full-support flavor states under unitary controls and common measurement cannot yield an exclusive mark; derived weak relative probability bound, scope only.
+
+## SL-P013 additions
+- H021 isotope memory age: known initial population gives statistical age; unknown history nonidentifiable (E021).
+- H022 decay timestamp readout: delayed Poisson filtering; live decay plus terminal inventory recovers total count, not exact capture times.
+- H023 multiple calibrated lifetimes: conditional burst age/amplitude inference; arbitrary history ill-conditioned/nonidentifiable.
+- H024 prompt capture timestamp plus delayed daughter decay tag; actual addressable Ga readout unverified.
