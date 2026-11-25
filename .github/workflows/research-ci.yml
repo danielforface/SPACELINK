@@ -36,3 +36,7 @@ jobs:
       - run: python experiments/SL-E011/count.py
       - run: python experiments/SL-E012/solar_diffraction.py
       - run: python experiments/SL-E013/ambient.py
+
+      - run: python experiments/SL-E014/receiver.py
+      - run: python experiments/SL-E015/scatter.py
+      - run: python experiments/SL-E016/relay.py

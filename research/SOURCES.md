@@ -37,3 +37,6 @@ S041 Akhmedov/Smirnov 2022 wave packet/decoherence DOI 10.1007/JHEP11(2022)082; 
 
 ## SL-P007 addendum
 S050 PMC7517446 Poisson/dead time; S051 IEEE1090084 M-ary Poisson; S052 DOI 10.1364/OE.26.000179 optical grating analogy; S053 DOI 10.1002/swe.20064 F10.7; S054 DOI 10.1029/2025EA004854 quiet baseline; S055 NRC solar monitoring; S056 SIGCOMM 2013 ambient backscatter; S057 IEEE8368232 survey; S058 NRAO Essential Radio Astronomy ch3; S059 NASA thermal control. Access levels in literature/SL-P007.md.
+
+## SL-P008 addendum
+S060 DOI 10.3390/universe9050207 Eq8–11; S061 DOI 10.1038/s41467-025-57923-2 indexed abstract; S062 NASA NTRS 20200000354 indexed excerpt; S063 UMD 16km retroreflector abstract; S064 PMC7913930 differential equalization; S065 NASA LCRD; S066 Borexino open data page (no events ingested). See literature/SL-P008.md.
