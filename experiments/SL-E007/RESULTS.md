@@ -1,0 +1,15 @@
+# E007 — results
+2026-11-25; SIMULATED illustrative click channel. Code 4e1c78298c013323626d881d18f742386ed93af8, CI https://github.com/danielforface/SPACELINK/actions/runs/45585356643, Python 3.12 job 139105430698 logs 34 tests OK. 216 scenario rows (4 modes * 3 bands * 3 offsets * 3 backgrounds * 2 FOVs), each 7 slot widths and 101 priors, 1512 slot scenarios / 152712 prior evaluations. Full selected rows in results-ci.json. No optical experiment. Initial CI run https://github.com/danielforface/SPACELINK/actions/runs/45584977834 failed exact no-signal test due cancellation (2.7755575615628914e-17 bits/slot); corrected with stable centered Bernoulli KL and exact null, amendment in protocol. First branch ref update was blocked, readback confirmed unchanged; ordinary retry succeeded. No force push. 
+## Common conditions
+1064nm, 1m² collector, 225e9m, 5m receiver, .22m active aperture, .5 throughput and .6 detector efficiency, Planck approximation .6305650703203608 W/m²/nm at carrier. Central scenario 1nm filter, 1urad offset, background radiance ratio 1e-7, FOV factor 1; background 6301.5886 detected events/s.
+| Mode | Signal events/s | Ideal click-channel bits/s |
+|---|---:|---:|
+| Passive mirror | 5.7852066 | .000957351878 |
+| Direct solar TEM00 2.06% | 5.274795783e8 | 2.531091970e8 |
+| Direct solar CW 3.96% optimistic beam | 1.013989869e9 | 4.411546377e8 |
+| PV+laser assumed 9% | 2.304522430e9 | 7.630812305e8 |
+All central maxima at 1ns slot, no dead time or modulator bandwidth; these are idealized model rates, not realizable engineering throughput or universal capacity. 3.96% CW not demonstrated diffraction limited; PV 9% is assumption. Equal collector and active aperture, not equal mass, thermal management, average power, or lifetime. Mirror ideal within broad cone, no point-dependent disk brightness. Peak input optical power budget. 
+## Sensitivity
+Passive mirror 10nm band, FOV1, ratio 1e-10: 57.8521 signal/s and 162.0159 background/s, ideal 3.175126 bit/s. Same band at 1e-7: .00971189 bit/s; 1e-4: 9.4337e-6 bit/s. Across specified grid mirror range 3.86283e-9–3.17513 bits/s; TEM00 1.83879e6–2.78311e8; optimistic CW 6.06060e6–4.79368e8; PV assumption 2.34805e7–8.03335e8. These ranges are hypothetical scenarios, not measured uncertainty. OOK click BER for 1ns is not coded BER; low photon per slot can still convey information over many slots. Prior art solar pumping/PPM well established. 
+## Limitations and next
+Spectral radiance not measured ASTM data; radiance fraction synthetic; active source linewidth/filter Doppler, receiver FOV acceptance, pointing jitter, finite detector dead time, peak/average constraints, actual modulator speeds, mass and thermal data absent. Direct solar conversion not shown superior to PV; no DSOC throughput reproduction. Next: import measured spectrum, realistic detector constraints, pulse-position modulation or counting with equal average and peak budget, direct/pv thermal and mass crossover; examine passive spectral multiplexing and distributed reflectors under radiance conservation. 
