@@ -41,6 +41,11 @@ def interval(E,g,lo,hi,step,mode='trap',mu=None,T=0):
     lo=max(lo,Q,E[0]);hi=min(hi,E[-1])
     if hi<=lo:return 0.
     x=np.unique(np.r_[np.linspace(lo,hi,math.ceil((hi-lo)/step)+1),E[(E>lo)&(E<hi)]])
+    if mu is not None:
+        # Resolve the Fermi edge and threshold; 0.1 eV exceeds kBT at 300K.
+        a=max(lo,Q+mu-30*KB*T);b=min(hi,Q+mu+30*KB*T)
+        if b>a:
+            x=np.unique(np.r_[x,np.linspace(a,b,math.ceil((b-a)/min(step,KB*T/20))+1)])
     def y(x):
         K=x-Q; v=np.interp(x,E,g)*weight(K)
         if mu is not None:
