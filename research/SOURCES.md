@@ -55,3 +55,6 @@ S086 SAGE DOI 10.1103/PhysRevC.80.015807 abstract, PDG SNU indexed; S087 CIAAW g
 
 ## SL-P013 addendum
 S099 arXiv:2401.15286 abstract and LBNL 2024 measurement description; S100 DOI 10.1103/PhysRevC.108.L021602 abstract; S101 DOI 10.1007/s10967-022-08494-9 indexed text; S102 GALLEX reanalysis S0370269310000729 indexed text; S103 MPI research history indexed text; S104 S0969804314000505 indexed abstract (DOI unverified); S105 DOI 10.1088/0026-1394/52/3/S51 indexed text. See literature/SL-P013.md.
+
+## SL-P014 addendum
+S106 DOI 10.1103/PhysRevC.108.035502 abstract and indexed Q/K-line; S107 arXiv:2002.11971 abstract and S0927650520300918; S108 DOI 10.1140/epja/s10050-023-00978-w review relevant text; S109 JMR F4EB2E32DD912345A77C01F6E9BF257A abstract and DOI 10.1063/1.3153277, 10.1063/1.5123163 indexed; S110 DOI 10.1038/s41598-018-20155-0 indexed, opening failed; S111 DOI 10.1103/PhysRevD.107.096011 abstract; S112 DOI 10.1103/5pvf-mcr1 abstract; S113 arXiv:2501.03528 abstract and DOI 10.1103/pz8g-zz1b indexed; S114 DOI 10.1039/D0MA00017E indexed. Access details literature/SL-P014.md.

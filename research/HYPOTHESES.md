@@ -39,3 +39,9 @@ All OPEN/UNVERIFIED. No novelty claims. Each requires causal sender control, rem
 - H022 decay timestamp readout: delayed Poisson filtering; live decay plus terminal inventory recovers total count, not exact capture times.
 - H023 multiple calibrated lifetimes: conditional burst age/amplitude inference; arbitrary history ill-conditioned/nonidentifiable.
 - H024 prompt capture timestamp plus delayed daughter decay tag; actual addressable Ga readout unverified.
+
+## SL-P014 additions
+- H025 transmutation recoil creates persistent structural mark surviving isotope reset; E022 kinematic overlap only, actual defect survival and background unknown.
+- H026 three-timescale tags (known excited Ge prompt/delayed coincidence, long EC, hypothesized scar); branch and detector unverified.
+- H027 natural capture and secondary emission as store-forward carrier, outside H014 unitary model; isotropic link screen negative.
+- H028 electron-occupancy decay gate; known effects in other ions, no Ge switch, conservation at fixed birth rate.
