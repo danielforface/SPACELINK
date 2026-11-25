@@ -1,0 +1,110 @@
+{
+  "code_revision": "e8954789baf48f9eda761727233291d3beadd96d",
+  "ci_run": 45627305234,
+  "job": 139250812122,
+  "e017": "DERIVED/SIMULATED",
+  "spectral_nodes": 9128,
+  "dephased": -1.653220288535795e-13,
+  "echo": [
+    {
+      "mode": "ideal",
+      "offset_m": 0,
+      "delta_Pee": -3.191851230749655e-11,
+      "coherent": -3.2083834336349794e-11,
+      "ratio_to_dephased": 194.0687188442711
+    },
+    {
+      "mode": "ideal",
+      "offset_m": 7124.958601153318,
+      "delta_Pee": 2.92753292652068e-7,
+      "coherent": 2.9275312733004145e-7,
+      "ratio_to_dephased": 1770805.3146947746
+    },
+    {
+      "mode": "ideal",
+      "offset_m": 100000,
+      "delta_Pee": -1.1795969323316705e-8,
+      "coherent": -1.1796134645345729e-8,
+      "ratio_to_dephased": 71352.46722500116
+    },
+    {
+      "mode": "ideal",
+      "offset_m": 1000000,
+      "delta_Pee": 1.1136747466433403e-7,
+      "coherent": 1.1136730934230576e-7,
+      "ratio_to_dephased": 673638.656110011
+    },
+    {
+      "mode": "slab",
+      "offset_m": 0,
+      "delta_Pee": -3.1918497581608457e-11,
+      "coherent": -3.208381945667099e-11,
+      "ratio_to_dephased": 194.0686288400599
+    },
+    {
+      "mode": "slab",
+      "offset_m": 7124.958601153318,
+      "delta_Pee": 2.9275315648762986e-7,
+      "coherent": 2.9275299116575325e-7,
+      "ratio_to_dephased": 1770804.4910641361
+    },
+    {
+      "mode": "slab",
+      "offset_m": 100000,
+      "delta_Pee": -1.1795972492431694e-8,
+      "coherent": -1.1796137814306748e-8,
+      "ratio_to_dephased": 71352.48639341473
+    },
+    {
+      "mode": "slab",
+      "offset_m": 1000000,
+      "delta_Pee": 1.1136750325629355e-7,
+      "coherent": 1.113673379344191e-7,
+      "ratio_to_dephased": 673638.8290580056
+    }
+  ],
+  "swap": {
+    "Veff_eV": 1.1270331678347739e-10,
+    "rhoYe_g_cm3": 1516.296910766836,
+    "length_m": 5962.574863444909,
+    "earth_max": 0.00009348402599034345,
+    "tungsten_max": 0.0001514545693151969,
+    "tuned_probability": 1
+  },
+  "lens": {
+    "b_m": 757863620.9207804,
+    "total_gain": 606290896.7366242,
+    "source_angle_rad": 2.5709950470263252e-14,
+    "rows": [
+      {
+        "a_m": 1,
+        "patch_bound_m2": 3.141592653589793,
+        "f": 2.6389972348455823e-10,
+        "tag_gain": 0.16,
+        "aggregate_coefficient_gain": 4.222395575752931e-11
+      },
+      {
+        "a_m": 1000,
+        "patch_bound_m2": 5000.0000082483175,
+        "f": 4.200094554243921e-7,
+        "tag_gain": 254.6479093671159,
+        "aggregate_coefficient_gain": 0.00010695452973824229
+      },
+      {
+        "a_m": 100000,
+        "patch_bound_m2": 500000.0022755838,
+        "f": 0.00004200094566430512,
+        "tag_gain": 25464.791010597786,
+        "aggregate_coefficient_gain": 1.069545303589003
+      }
+    ]
+  },
+  "reciprocal": {
+    "n_cm3": 2.0013845711889124,
+    "V_eV": 2.525766724362606e-37,
+    "phase_1s": 3.8373151655559143e-22,
+    "modulated_phase_1s": 3.758156188707604e-37,
+    "ideal_independent_probes_1sigma": 7.080278636850282e+72
+  },
+  "rare_event_kl_bound_bits": 5.770780163555853e-17
+}
