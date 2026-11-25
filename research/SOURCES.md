@@ -43,3 +43,6 @@ S060 DOI 10.3390/universe9050207 Eq8–11; S061 DOI 10.1038/s41467-025-57923-2 i
 
 ## SL-P009 addendum
 S067 DOI 10.1140/epjc/s10052-016-4187-5 catch-up full relevant sections; S068 DOI 10.1140/epjc/s10052-026-15902-x matter interferometers relevant sections; S069 DOI 10.1103/PhysRevD.106.053003 abstract; S070 DOI 10.1088/0004-637X/780/2/158 indexed excerpt, full denied; S071 INSPIRE769060 lens caustics abstract; S072 DOI 10.1103/PhysRevLett.118.231301 abstract; S073 DOI 10.1103/PhysRevLett.133.191002 abstract; S074 DOI 10.1007/JHEP01(2026)148 indexed abstract. See research/literature/SL-P009.md.
+
+## SL-P010 addendum
+S075 arXiv:hep-ph/9805272 exact periodic profile abstract; S076 arXiv:1202.0776 stimulated sinusoidal profiles abstract; S077 DOI 10.1103/PhysRevC.90.065502 three-state resonance abstract; S078 DOI 10.1103/PhysRevD.101.123018 supernova timing abstract; S079 DOI 10.1088/1674-1137/43/9/095102 relevant section TOF inspected. S067 relevant coherence sections rechecked; S012 current preprint abstract rechecked. See literature/SL-P010.md.

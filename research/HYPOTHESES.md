@@ -16,3 +16,8 @@ All OPEN/UNVERIFIED. No novelty claims. Each requires causal sender control, rem
 | H008 | Distant natural flux -> controlled patch -> natural gravitational lens -> receiver. Changes source and geometry. | E017 ideal exterior lens total vs controlled flux; no identified source. Falsify by finite source, aperture and modulation budget. |
 | H009 | Modulated neutrino current -> reciprocal coherent matter potential -> differential sensor phase. Replaces recoil counting. | E017 tiny reference scale; require actual Hamiltonian and measurable differential coupling. |
 | H010 | Neutrino interaction -> locally energized metastable readout. Changes output transduction. | Post-event data processing constraint; only improves readout of existing info. Require pre-event distinct mechanism for gain beyond event budget. |
+
+## SL-P010 updates (HYPOTHESIS, no novelty proof)
+- H007: E018 periodic standard matter alternative confirms conditional 3-state echo; peak density no longer necessary, column still severe. No feasible relay or link established.
+- H011: sender-controlled group delay switching -> arrival-time edge statistics, not flavor. E018 sparse detected-rate upper TV tiny for Be7/Mars toy. Falsifier: distinguishability under real delay and detector rates; seek different observable before pursuing engineering.
+- H012: change transmitter placement relative to finite natural source and receiver -> geometrical controlled fraction. E018 shows receiver-near full coverage but no remote Earth sender without separate causal channel. Need actual source and endpoint geometry with genuine sender control.
