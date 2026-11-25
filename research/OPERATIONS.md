@@ -19,3 +19,6 @@ SI units by default, explicit unit conversions and conventions for particle ener
 
 ## Mandatory pulse closeout
 Every pulse report starts with a concise outcome ledger: achieved, disproved/negative, failed/blocked, evidence/CI, scientific claim limits and next task. Deliver the same substance to the owner in the final response. This is a standing owner requirement, not optional.
+
+## Discovery gate (owner direction 2026-11-25)
+Before implementation, identify the desired observable, causal chain, new or altered assumption versus prior work, physical constraints, closest known work and cheapest falsifying test. ADR-003 governs ordering. For exploratory pulses, a defensible quantitative elimination or cross-disciplinary hypothesis map is a valid deliverable; code is not mandatory. Record open questions without implying success. Pulse closeout includes a concise big-picture verdict: new feasible mechanism / new testable hypothesis / scoped exclusion / no movement, with evidence and caveats.
