@@ -23,6 +23,12 @@ def choose():
         a=m@a
         best=max(best,(abs(a[1,0])**2,n))
     return best[1]
+def first_lobe():
+    m=cell(E0);a=np.eye(3,dtype=complex)
+    for n in range(1,601):
+        a=m@a
+        if abs(a[1,0])**2>=.99:return n
+    raise ValueError("no .99 exchange")
 def imprint(E):
     a=layer(E,V,1)
     d=(a*P)@a.conj().T
@@ -58,33 +64,37 @@ def integrate(E,g,n):
         d=imprint(e)
         for label,m in modes(e,n).items():
             total,co=echo(e,m,d)
-            out.setdefault(label,[]).append([abs(m[1,0])**2,total,co,float(np.max(abs(m.conj().T@m-np.eye(3))))])
+            out.setdefault(label,[]).append([abs(m[1,0])**2,total,co,float(np.max(abs(m.conj().T@m-np.eye(3)))),float(W@(abs(m)**2@P))])
     norm=np.trapz(g,E)
-    return {k:dict(zip(["swap21","delta_pe","coherent","mean_unitarity_error"],np.trapz(np.array(v)*g[:,None],E,axis=0)/norm)) for k,v in out.items()}
+    return {k:dict(zip(["swap21","delta_pe","coherent","mean_unitarity_error","covered_baseline_pe"],np.trapz(np.array(v)*g[:,None],E,axis=0)/norm)) for k,v in out.items()}
 def coverage(rows,norm,D,a=1000):
     return math.fsum(w*e3.shell_fraction(a*1.524*AU/(D*r*e3.RS)) for r,w in rows)/norm
 def delay(D,dm,E=E0):
     return D*dm/(2*E*E*C_LIGHT)
 def tv(lam,dt):
     return -math.expm1(-2*lam*dt)
-def budget(contrast,f):
+def budget(contrast,f,pc_after):
     r=e3.xs(electron=False)/e3.xs()
     pe=.5264113600;pc=float(P@W)
-    # Model baseline response: whole-flux average; tag subset gets its own response.
-    den=r+(1-r)*pe;dc=r+(1-r)*pc
-    rate=48.3/1.524**2
-    rel=f*(1-r)*contrast/den
-    tag_rate=rate*f*dc/den
-    tag_rel=(1-r)*contrast/dc
-    return dict(relative=rel,aggregate_bits_day=e3.info_bound(rate,0,rel),tagged_bits_day=e3.info_bound(tag_rate,0,tag_rel),tag_rate_day=tag_rate)
+    # Relay acts only on the tagged geometrical bundle in this toy.
+    den=r+(1-r)*pe;dc=r+(1-r)*pc_after
+    den_after=den+f*(1-r)*(pc_after-pc)
+    rate_ref=48.3/1.524**2
+    rate=rate_ref*den_after/den
+    dr=rate_ref*f*(1-r)*contrast/den
+    rel=dr/rate
+    tag_rate=rate_ref*f*dc/den
+    tag_rel=dr/tag_rate if tag_rate else 0.
+    return dict(relative=rel,aggregate_bits_day=e3.info_bound(rate,0,rel),tagged_bits_day=e3.info_bound(tag_rate,0,tag_rel) if tag_rate else 0.,tag_rate_day=tag_rate)
 def run():
-    n=choose();E,g=e6.line(e6.download("be7ground_shape.csv","19d97e87e8b03678d2e4629598f7d7fd7794eae0"))
+    n=choose();early=first_lobe();E,g=e6.line(e6.download("be7ground_shape.csv","19d97e87e8b03678d2e4629598f7d7fd7794eae0"))
     fine=np.sort(np.r_[E,(E[:-1]+E[1:])/2])
     coarse=integrate(E,g,n);refined=integrate(fine,np.interp(fine,E,g),n)
     # Independent half-energy-step refinement detects rapid residual phase dependence.
     finest=np.linspace(E[0],E[-1],math.ceil((E[-1]-E[0])/5)+1)
     finest=np.unique(np.r_[finest,E])
     final=integrate(finest,np.interp(finest,E,g),n)
+    early_result=integrate(finest,np.interp(finest,E,g),early)
     _,file,sha,ncol,idx=e5.MODELS[0]
     rows,norm=e5.parse(e6.download(file,sha),sha,ncol,idx)
     geo=[dict(distance_m=d,f=coverage(rows,norm,d)) for d in (1.514*AU,DIST,1e9,1e6,1e3)]
@@ -93,7 +103,8 @@ def run():
         material_mass_kg={str(a):RHO*1000*math.pi*a*a*n*PER/2 for a in (1,1000)},
         center={k:dict(swap21=float(abs(m[1,0])**2),delta_pe=echo(E0,m,imprint(E0))[0],oracle_error=abs(echo(E0,m,imprint(E0))[0]-direct(E0,m,imprint(E0)))) for k,m in modes(E0,n).items()},
         two_state_center=twostate(E0,n),coarse=coarse,refined=refined,final=final,nodes=[len(E),len(fine),len(finest)],geometry=geo,
-        link={k:budget(v["delta_pe"],f) for k,v in final.items()},
+        link={k:budget(v["delta_pe"],f,v["covered_baseline_pe"]) for k,v in final.items()},
+        early=dict(cycles=early,device_length_m=early*PER,matter_length_m=early*PER/2,center_swap=float(abs(np.linalg.matrix_power(cell(E0),early)[1,0])**2),spectral=early_result,link=budget(early_result["periodic"]["delta_pe"],f,early_result["periodic"]["covered_baseline_pe"]),mass_kg_radius_1km=RHO*1000*math.pi*1e6*early*PER/2),
         time=[dict(dm2=float(dm),delay_s=delay(DIST,dm),incident_tv=tv(6e14,delay(DIST,dm)),all_detected_tv=tv(48.3/1.524**2/86400,delay(DIST,dm)),covered_detected_tv=tv(48.3/1.524**2/86400*f,delay(DIST,dm)),delay_over_1ns=delay(DIST,dm)/1e-9,delay_over_1ps=delay(DIST,dm)/1e-12) for dm in DM[1:]])
     print(json.dumps(result,separators=(",",":")))
 if __name__=="__main__":run()

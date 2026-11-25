@@ -22,3 +22,10 @@ class Echo(unittest.TestCase):
     def test_independent_two_state(self):
         n=a.choose()
         self.assertLess(abs(a.twostate(a.E0,n)-abs(np.linalg.matrix_power(a.cell(a.E0),n)[1,0])**2),.02)
+
+    def test_budget(self):
+        self.assertEqual(a.budget(0,1e-8,.4)["tagged_bits_day"],0)
+        self.assertEqual(a.budget(1e-7,0,.4)["tagged_bits_day"],0)
+        self.assertLess(a.budget(1e-7,1e-8,.4)["aggregate_bits_day"],a.budget(1e-7,1e-8,.4)["tagged_bits_day"])
+        n=a.first_lobe();self.assertLessEqual(n,a.choose())
+        self.assertGreaterEqual(abs(np.linalg.matrix_power(a.cell(a.E0),n)[1,0])**2,.99)
