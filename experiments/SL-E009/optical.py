@@ -26,7 +26,11 @@ def budget(x,y,mode,width,bgf,center=1064,dark=100):
     s,b=o7.budget(mode,width,1,bgf,1)
     factor=irradiance/(o7.spectral()*width*1e-9)
     return (s*factor if mode=="mirror" else s),(b-100)*factor+dark
-def probs(s,b,t):return -math.expm1(-b*t),-math.expm1(-(b+s)*t)
+def probs(s,b,t):
+    # Bijective output relabeling: preserve rare no-click outcomes when
+    # click probabilities round to one. True underflow remains possible.
+    if b*t>math.log(2):return math.exp(-b*t),math.exp(-(b+s)*t)
+    return -math.expm1(-b*t),-math.expm1(-(b+s)*t)
 def binom(n,k,q):
     return math.comb(n,k)*q**k*(1-q)**(n-k) if 0<=k<=n else 0.
 def ppm(M,q0,q1):

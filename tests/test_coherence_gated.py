@@ -35,3 +35,10 @@ class NewTests(unittest.TestCase):
         self.assertAlmostEqual(z["ppm"]/y["ppm"],2);self.assertAlmostEqual(z["ook"]/y["ook"],2)
         self.assertAlmostEqual(y["mean_fraction"],.125)
         self.assertEqual(b.rate(0,10,.001,1e-6,4)["ppm"],0)
+
+    def test_saturated_click(self):
+        q0,q1=b.probs(50,63000,.001)
+        self.assertGreater(q0,q1);self.assertGreater(q1,0)
+        r=b.rate(50,63000,.001,1e-6,4)
+        self.assertGreater(r["ook"],0);self.assertGreater(r["ppm"],0)
+        self.assertAlmostEqual(b.ppm(4,.8,.9),b.ppm(4,.2,.1),delta=1e-12)
