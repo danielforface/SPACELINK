@@ -29,3 +29,6 @@ jobs:
 
       - run: python experiments/SL-E006/solar.py
       - run: python experiments/SL-E007/optical.py
+
+      - run: python experiments/SL-E008/coherence.py
+      - run: python experiments/SL-E009/optical.py

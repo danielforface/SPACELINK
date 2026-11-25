@@ -31,3 +31,6 @@ S024 PEANUTS DOI 10.1140/epjc/s10052-024-12423-3, pinned data mirror and license
 
 ## SL-P005 addendum
 S033 Bahcall line shape DOI 10.1103/PhysRevD.49.3923 and pinned PEANUTS spectrum; S034 Borexino 2011 P_ee abstract and 2021 review; S035 TEM00 solar laser study S0927024824001296; S036 2025 solar laser PMID 41215441; S037 photon counting PPM PMID 18345074; S038 ASTM E490 reference; S039 2025 review and 2026 planar laser model; S040 6.09% solar laser title only. See research/literature/SL-P005.md for access and limits.
+
+## SL-P006 addendum
+S041 Akhmedov/Smirnov 2022 wave packet/decoherence DOI 10.1007/JHEP11(2022)082; S042 DOI 10.1103/PhysRevD.92.013014 Be7 averaging; S043 Nature 10.1038/s41586-024-08479-6 lab wave packet localization; S044 NLR ASTM E490 composite and pinned pyspectral mirror; S045 DSOC SNSPD PMID 39876129; S046 CCSDS 141.0-B-2; S047 IEEE 9864223 passive sunlight LCD; S048 TU Delft Sol-Fi indexed excerpt; S049 PMID 40082473 hybrid solar microwave metasurface. Access levels and limitations in research/literature/SL-P006.md.
