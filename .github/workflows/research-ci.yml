@@ -52,3 +52,5 @@ jobs:
       - run: python experiments/SL-E021/clocks.py
 
       - run: python experiments/SL-E022/scars.py
+
+      - run: python experiments/SL-E023/electrical.py
